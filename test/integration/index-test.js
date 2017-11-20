@@ -69,12 +69,15 @@ describe('Integration - index', function() {
     let appPath = path.join(__dirname, '../fixtures/code-corps-ember');
 
     let graph = Graph.build(appPath, 'code-corps-ember', {
-      include: ['ember-test-selectors/utils/bind-data-test-attributes.js']
+      include: [
+        'ember-test-selectors/utils/bind-data-test-attributes.js',
+        'ember-metrics/metrics-adapters/segment.js'
+      ]
     });
 
     expect(graph).to.be.an.instanceof(Graph);
     expect(graph.root).to.be.an.instanceof(Node);
-    expect(graph.flattened.length).to.equal(1830);
-    expect(graph.calculateDead().length).to.equal(142);
+    expect(graph.flattened.length).to.equal(1832);
+    expect(graph.calculateDead().length).to.equal(140);
   });
 });
