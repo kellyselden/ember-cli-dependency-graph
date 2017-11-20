@@ -1,0 +1,8 @@
+define("travis/templates/components/repos-list-tabs", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "pGDLn7B3", "block": "{\"symbols\":[],\"statements\":[[6,\"ul\"],[7],[0,\"\\n  \"],[6,\"li\"],[9,\"id\",\"tab_owned\"],[10,\"class\",[18,\"classOwned\"],null],[7],[0,\"\\n    \"],[6,\"a\"],[9,\"href\",\"#\"],[3,\"action\",[[19,0,[]],[19,0,[\"showMyRepositories\"]]]],[7],[0,\"My Repositories\"],[8],[0,\"\\n  \"],[8],[0,\"\\n\\n\"],[4,\"if\",[[19,0,[\"features\",\"proVersion\"]]],null,{\"statements\":[[0,\"    \"],[6,\"li\"],[9,\"id\",\"tab_running\"],[10,\"class\",[18,\"classRunning\"],null],[7],[0,\"\\n      \"],[6,\"a\"],[9,\"href\",\"#\"],[3,\"action\",[[19,0,[]],[19,0,[\"showRunningJobs\"]]]],[7],[0,\"Running (\"],[1,[18,\"startedJobsCount\"],false],[0,\"/\"],[1,[18,\"allJobsCount\"],false],[0,\")\"],[8],[0,\"\\n    \"],[8],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\n  \"],[6,\"li\"],[9,\"id\",\"tab_new\"],[10,\"class\",[18,\"classNew\"],null],[7],[0,\"\\n\"],[4,\"link-to\",[\"account\",[19,0,[\"currentUser\",\"login\"]],[25,\"query-params\",null,[[\"offset\"],[0]]]],[[\"trackEvent\",\"title\"],[\"add-repository-from-list\",\"Add New Repository\"]],{\"statements\":[[0,\"    \"],[6,\"span\"],[9,\"class\",\"icon icon--plus\"],[7],[8],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "travis/templates/components/repos-list-tabs.hbs" } });
+});

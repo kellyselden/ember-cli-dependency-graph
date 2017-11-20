@@ -9,11 +9,11 @@ const mrDepWalk = require('mr-dep-walk');
 const debug = require('debug')('ember-cli-dependency-graph');
 
 function recurse(node, entryPath, entryName, visited) {
-  // let deps = mrDepWalk.depFilesFromFile(entryPath, { entry: node.name });
-  let deps = mrDepWalk.depsFromFile(path.join(entryPath, node.name));
+  let deps = mrDepWalk.depsFromFile(path.join(entryPath, node.name), {
+    sourceType: 'script'
+  });
   let parent = node;
   deps.forEach(dep => {
-    // dep = dep.replace(/\.js$/, '');
     let parts = dep.match(/^([^/]*)\/?(.*)$/) || [];
     let root = parts[1];
     let rest = parts[2];

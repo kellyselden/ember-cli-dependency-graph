@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Travis CI</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+
+    {{content-for "head"}}
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/travis.css">
+    <link rel="mask-icon" href="images/favicon.svg" color="black">
+
+    {{content-for "head-footer"}}
+  </head>
+  <body>
+    <noscript>
+      <div style="width: 60%; margin: auto;">
+        <img src="/images/logos/TravisCI-Mascot-1.png" alt="Travis CI mascot" width="200" style="float: left; margin: 1em 3em;">
+        <div>
+          <h1>Hey there!</h1>
+          <p>Looks like you have JavaScript disabled.</p>
+          <p>The Travis CI webclient needs JavaScript to work properly.</p>
+          <h2>Please enable JavaScript to get the best Travis CI experience.</h2>
+          <h3>Thank you!</h3>
+        </div>
+      </div>
+    </noscript>
+    {{content-for "body"}}
+
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/travis.js"></script>
+
+    {{content-for "body-footer"}}
+
+  </body>
+</html>

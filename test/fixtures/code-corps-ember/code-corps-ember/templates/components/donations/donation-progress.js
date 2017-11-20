@@ -1,0 +1,8 @@
+define("code-corps-ember/templates/components/donations/donation-progress", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "mrKkVhYk", "block": "{\"symbols\":[],\"statements\":[[1,[25,\"progress-bar-container\",null,[[\"percentage\"],[[19,0,[\"percentage\"]]]]],false],[0,\"\\n\"],[6,\"div\"],[9,\"class\",\"donation-progress__details\"],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"donation-progress__details__amount\"],[7],[0,\"\\n    \"],[6,\"div\"],[9,\"class\",\"donation-progress__details__amount__value\"],[7],[1,[25,\"format-currency\",[[19,0,[\"amountDonated\"]]],[[\"trimZero\"],[true]]],false],[8],[0,\"\\n    \"],[6,\"div\"],[9,\"class\",\"donation-progress__details__amount__label\"],[7],[0,\"given each month\"],[8],[0,\"\\n  \"],[8],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"donation-progress__details__percentage\"],[7],[0,\"\\n    \"],[6,\"div\"],[9,\"class\",\"donation-progress__details__percentage__value\"],[7],[1,[25,\"format-percentage\",[[19,0,[\"percentage\"]]],[[\"trimZero\"],[true]]],false],[8],[0,\"\\n    \"],[6,\"div\"],[9,\"class\",\"donation-progress__details__percentage__label\"],[7],[0,\"of \"],[1,[25,\"format-currency\",[[19,0,[\"donationGoal\",\"amount\"]]],[[\"trimZero\"],[true]]],false],[0,\" goal\"],[8],[0,\"\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"],[6,\"p\"],[9,\"class\",\"donation-progress__description\"],[7],[0,\"\\n  \"],[1,[18,\"description\"],false],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "code-corps-ember/templates/components/donations/donation-progress.hbs" } });
+});

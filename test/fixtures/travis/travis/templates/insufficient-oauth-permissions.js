@@ -1,0 +1,8 @@
+define("travis/templates/insufficient-oauth-permissions", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "Pkf27xSW", "block": "{\"symbols\":[],\"statements\":[[4,\"travis-layout\",null,[[\"layoutName\"],[\"layouts/center\"]],{\"statements\":[[6,\"div\"],[9,\"class\",\"content-page\"],[7],[0,\"\\n\\n  \"],[6,\"img\"],[9,\"src\",\"/images/travis-crying.png\"],[9,\"alt\",\"Sad Travis\"],[9,\"class\",\"sad-travis\"],[9,\"width\",\"200\"],[7],[8],[0,\"\\n\\n  \"],[6,\"h1\"],[9,\"class\",\"content-title\"],[7],[0,\"Sorry, something went missing.\"],[8],[0,\"\\n\\n  \"],[6,\"div\"],[9,\"class\",\"content-text\"],[7],[0,\"\\n    \"],[6,\"p\"],[7],[0,\"It looks like we don't have sufficient privileges for your GitHub account.\\n      This can happen for different reasons, most commonly due to an older token\\n      stored on our end, or because some of the permissions have been removed\\n      from the token. Unfortunately we need those to provide you with the best service.\"],[8],[0,\"\\n\\n    \"],[6,\"p\"],[7],[0,\"Luckily, the issue can be easily corrected by going through the login flow\\n      once again. Make sure the permissions we ask for are all available.\"],[8],[0,\"\\n\\n    \"],[6,\"p\"],[7],[0,\"For more information about the OAuth scopes and what we need them for,\\n      \"],[6,\"a\"],[9,\"href\",\"http://docs.travis-ci.com/user/github-oauth-scopes/\"],[7],[0,\"check our documentation on this topic\"],[8],[0,\".\"],[8],[0,\"\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"parameters\":[]},null]],\"hasEval\":false}", "meta": { "moduleName": "travis/templates/insufficient-oauth-permissions.hbs" } });
+});

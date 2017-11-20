@@ -1,0 +1,8 @@
+define("code-corps-ember/templates/components/user-details", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "9+e70Cvw", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"container\"],[7],[0,\"\\n  \"],[1,[25,\"user-sidebar\",null,[[\"user\"],[[19,0,[\"user\"]]]]],false],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"user-details__main\"],[7],[0,\"\\n    \"],[1,[25,\"user-projects-list\",null,[[\"user\",\"projects\"],[[19,0,[\"user\"]],[19,0,[\"userProjects\"]]]]],false],[0,\"\\n\\n    \"],[6,\"div\"],[9,\"class\",\"user-details__skills-list\"],[7],[0,\"\\n      \"],[6,\"h3\"],[7],[0,\"Skills\"],[8],[0,\"\\n\"],[4,\"if\",[[19,0,[\"user\",\"userSkills\"]]],null,{\"statements\":[[0,\"        \"],[1,[25,\"user/skills-list\",null,[[\"user\",\"data-test-user-skills-list\"],[[19,0,[\"user\"]],true]]],false],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"        \"],[6,\"p\"],[9,\"data-test-user-skills-list-empty-state\",\"\"],[9,\"class\",\"empty-state\"],[7],[0,\"\\n          \"],[6,\"strong\"],[7],[1,[20,[\"user\",\"username\"]],false],[8],[0,\" hasn't added any skills yet.\\n        \"],[8],[0,\"\\n\"]],\"parameters\":[]}],[0,\"    \"],[8],[0,\"\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "code-corps-ember/templates/components/user-details.hbs" } });
+});

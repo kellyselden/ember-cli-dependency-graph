@@ -1,0 +1,8 @@
+define("code-corps-ember/templates/components/organization-header", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "EIvkpvuM", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"icon-container\"],[7],[0,\"\\n\"],[4,\"if\",[[19,0,[\"expanded\"]]],null,{\"statements\":[[0,\"    \"],[4,\"link-to\",[\"slugged-route\",[19,0,[\"organization\",\"slug\"]]],null,{\"statements\":[[6,\"img\"],[9,\"class\",\"icon large\"],[10,\"src\",[20,[\"organization\",\"iconLargeUrl\"]],null],[7],[8]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"    \"],[4,\"link-to\",[\"slugged-route\",[19,0,[\"organization\",\"slug\"]]],null,{\"statements\":[[6,\"img\"],[9,\"class\",\"icon\"],[10,\"src\",[20,[\"organization\",\"iconThumbUrl\"]],null],[7],[8]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[]}],[8],[0,\"\\n\"],[6,\"div\"],[9,\"class\",\"details-container\"],[7],[0,\"\\n  \"],[6,\"h2\"],[9,\"class\",\"title\"],[7],[4,\"link-to\",[\"slugged-route\",[19,0,[\"organization\",\"slug\"]]],null,{\"statements\":[[1,[20,[\"organization\",\"name\"]],false]],\"parameters\":[]},null],[8],[0,\"\\n\"],[4,\"if\",[[19,0,[\"expanded\"]]],null,{\"statements\":[[0,\"    \"],[6,\"p\"],[9,\"class\",\"description\"],[7],[1,[20,[\"organization\",\"description\"]],false],[8],[0,\"\\n\"]],\"parameters\":[]},null],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "code-corps-ember/templates/components/organization-header.hbs" } });
+});

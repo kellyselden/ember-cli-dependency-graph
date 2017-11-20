@@ -1,0 +1,8 @@
+define("code-corps-ember/templates/components/payments/account-setup", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "bemNx7Tb", "block": "{\"symbols\":[],\"statements\":[[1,[25,\"payments/create-account\",null,[[\"country\",\"isBusy\",\"onCreateStripeConnectAccount\",\"stripeConnectAccount\"],[\"US\",[19,0,[\"isBusy\"]],[25,\"action\",[[19,0,[]],[19,0,[\"onCreateStripeConnectAccount\"]]],null],[19,0,[\"stripeConnectAccount\"]]]]],false],[0,\"\\n\\n\"],[1,[25,\"payments/funds-recipient\",null,[[\"isBusy\",\"onLegalEntityPersonalIdNumberSubmitted\",\"onRecipientDetailsSubmitted\",\"onVerificationDocumentSubmitted\",\"stripeConnectAccount\"],[[19,0,[\"isBusy\"]],[25,\"action\",[[19,0,[]],[19,0,[\"onLegalEntityPersonalIdNumberSubmitted\"]]],null],[25,\"action\",[[19,0,[]],[19,0,[\"onRecipientDetailsSubmitted\"]]],null],[25,\"action\",[[19,0,[]],[19,0,[\"onVerificationDocumentSubmitted\"]]],null],[19,0,[\"stripeConnectAccount\"]]]]],false],[0,\"\\n\\n\"],[1,[25,\"payments/bank-account\",null,[[\"isBusy\",\"stripeConnectAccount\",\"submit\"],[[19,0,[\"isBusy\"]],[19,0,[\"stripeConnectAccount\"]],[25,\"action\",[[19,0,[]],[19,0,[\"onBankAccountInformationSubmitted\"]]],null]]]],false],[0,\"\\n\\n\"],[1,[25,\"payments/donation-goals\",null,[[\"donationsActive\",\"project\",\"transfersEnabled\"],[[19,0,[\"project\",\"donationsActive\"]],[19,0,[\"project\"]],[19,0,[\"stripeConnectAccount\",\"transfersEnabled\"]]]]],false],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "code-corps-ember/templates/components/payments/account-setup.hbs" } });
+});

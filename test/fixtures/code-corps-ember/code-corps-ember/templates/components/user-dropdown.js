@@ -1,0 +1,8 @@
+define("code-corps-ember/templates/components/user-dropdown", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "fguCueeS", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"dropdown__body\"],[7],[0,\"\\n  \"],[6,\"ul\"],[9,\"class\",\"dropdown__options\"],[7],[0,\"\\n\"],[0,\"    \"],[6,\"li\"],[7],[4,\"link-to\",[\"slugged-route\",[19,0,[\"user\",\"username\"]]],[[\"class\"],[\"slugged-route\"]],{\"statements\":[[0,\"Your profile\"]],\"parameters\":[]},null],[8],[0,\"\\n    \"],[6,\"li\"],[7],[4,\"link-to\",[\"settings.profile\"],[[\"class\"],[\"profile\"]],{\"statements\":[[0,\"Settings\"]],\"parameters\":[]},null],[8],[0,\"\\n    \"],[6,\"li\"],[7],[6,\"a\"],[9,\"class\",\"logout\"],[3,\"action\",[[19,0,[]],\"invalidateSession\"]],[7],[0,\"Log out\"],[8],[8],[0,\"\\n  \"],[8],[0,\"\\n\"],[4,\"if\",[[19,0,[\"user\",\"admin\"]]],null,{\"statements\":[[0,\"    \"],[6,\"ul\"],[9,\"class\",\"dropdown__options\"],[7],[0,\"\\n      \"],[6,\"li\"],[7],[4,\"link-to\",[\"admin\"],null,{\"statements\":[[0,\"Admin\"]],\"parameters\":[]},null],[8],[0,\"\\n    \"],[8],[0,\"\\n\"]],\"parameters\":[]},null],[8],[0,\"\\n\"],[6,\"div\"],[9,\"class\",\"dropdown__footer\"],[7],[0,\"\\n  Signed in as \"],[6,\"strong\"],[7],[1,[20,[\"user\",\"username\"]],false],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "code-corps-ember/templates/components/user-dropdown.hbs" } });
+});

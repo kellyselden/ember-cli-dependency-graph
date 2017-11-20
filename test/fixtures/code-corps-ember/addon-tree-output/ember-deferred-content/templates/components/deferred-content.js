@@ -1,0 +1,6 @@
+define("ember-deferred-content/templates/components/deferred-content", ["exports"], function (exports) {
+  "use strict";
+
+  exports.__esModule = true;
+  exports.default = Ember.HTMLBars.template({ "id": "OrhXy7wl", "block": "{\"symbols\":[\"&default\"],\"statements\":[[11,1,[[25,\"hash\",null,[[\"pending\",\"fulfilled\",\"rejected\",\"settled\",\"isPending\",\"isSettled\",\"isRejected\",\"isFulfilled\",\"content\"],[[25,\"component\",[\"deferred-content/pending-content\"],[[\"isSettled\"],[[19,0,[\"isSettled\"]]]]],[25,\"component\",[\"deferred-content/fulfilled-content\"],[[\"isFulfilled\",\"result\"],[[19,0,[\"isFulfilled\"]],[19,0,[\"content\"]]]]],[25,\"component\",[\"deferred-content/rejected-content\"],[[\"isRejected\",\"result\"],[[19,0,[\"isRejected\"]],[19,0,[\"content\"]]]]],[25,\"component\",[\"deferred-content/settled-content\"],[[\"isSettled\"],[[19,0,[\"isSettled\"]]]]],[19,0,[\"isPending\"]],[19,0,[\"isSettled\"]],[19,0,[\"isRejected\"]],[19,0,[\"isFulfilled\"]],[19,0,[\"content\"]]]]]]],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "ember-deferred-content/templates/components/deferred-content.hbs" } });
+});

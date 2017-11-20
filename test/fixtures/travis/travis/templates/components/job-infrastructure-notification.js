@@ -1,0 +1,8 @@
+define("travis/templates/components/job-infrastructure-notification", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "kRRDyFRe", "block": "{\"symbols\":[],\"statements\":[[4,\"unless\",[[19,0,[\"config\",\"enterprise\"]]],null,{\"statements\":[[4,\"if\",[[19,0,[\"auth\",\"signedIn\"]]],null,{\"statements\":[[4,\"if\",[[19,0,[\"isDeprecatedOrRetiredMacImage\"]]],null,{\"statements\":[[4,\"notice-banner\",null,null,{\"statements\":[[0,\"        \"],[1,[18,\"deprecatedOrRetiredMacImageMessage\"],true],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[]},null],[4,\"if\",[[19,0,[\"isPreciseEOL\"]]],null,{\"statements\":[[4,\"notice-banner\",null,null,{\"statements\":[[0,\"        This job \"],[1,[18,\"conjugatedRun\"],false],[0,\" on our \"],[6,\"b\"],[7],[0,\"Precise\"],[8],[0,\" environment, which is in the process of being decommissioned.  Please read about the status of the rollout \"],[6,\"a\"],[9,\"href\",\"https://blog.travis-ci.com/2017-08-31-trusty-as-default-status\"],[7],[0,\"on the blog\"],[8],[0,\", and take note that you can explicitly stay on Precise by specifying \"],[6,\"code\"],[7],[0,\"dist: precise\"],[8],[0,\" in your .travis.yml.\\n\"]],\"parameters\":[]},null]],\"parameters\":[]},null]],\"parameters\":[]},null]],\"parameters\":[]},null]],\"hasEval\":false}", "meta": { "moduleName": "travis/templates/components/job-infrastructure-notification.hbs" } });
+});

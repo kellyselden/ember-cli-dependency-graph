@@ -1,0 +1,8 @@
+define("code-corps-ember/templates/components/organization-settings-form", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "M36mWyyX", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"settings-form__image\"],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"input-group\"],[7],[0,\"\\n    \"],[1,[25,\"image-drop\",null,[[\"hoverText\",\"large\",\"onDone\",\"onError\",\"onStart\",\"originalImage\"],[\"Change your logo.\",true,[25,\"action\",[[19,0,[]],[19,0,[\"uploadDone\"]]],null],[25,\"action\",[[19,0,[]],[19,0,[\"uploadErrored\"]]],null],[25,\"action\",[[19,0,[]],[19,0,[\"uploadStarted\"]]],null],[19,0,[\"organization\",\"iconLargeUrl\"]]]]],false],[0,\"\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\\n\"],[6,\"div\"],[9,\"class\",\"settings-form__form\"],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"input-group\"],[7],[0,\"\\n    \"],[1,[25,\"input\",null,[[\"type\",\"name\",\"value\",\"placeholder\"],[\"text\",\"name\",[19,0,[\"organization\",\"name\"]],\"Organization Name\"]]],false],[0,\"\\n  \"],[8],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"input-group\"],[7],[0,\"\\n    \"],[1,[25,\"input\",null,[[\"type\",\"name\",\"value\",\"placeholder\"],[\"text\",\"description\",[19,0,[\"organization\",\"description\"]],\"Description\"]]],false],[0,\"\\n  \"],[8],[0,\"\\n\\n  \"],[6,\"div\"],[9,\"class\",\"input-group\"],[7],[0,\"\\n    \"],[6,\"button\"],[9,\"class\",\"save default\"],[3,\"action\",[[19,0,[]],\"save\"]],[7],[0,\"Update Settings\"],[8],[0,\"\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "code-corps-ember/templates/components/organization-settings-form.hbs" } });
+});

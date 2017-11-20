@@ -1,0 +1,8 @@
+define("travis/templates/owner", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "WVfrFyDW", "block": "{\"symbols\":[],\"statements\":[[4,\"travis-layout\",null,[[\"layoutName\",\"class\"],[\"layouts/center\",\"owner\"]],{\"statements\":[[6,\"header\"],[9,\"class\",\"owner-header row\"],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"owner-avatar\"],[7],[0,\"\\n    \"],[1,[25,\"user-avatar\",null,[[\"url\",\"name\",\"size\"],[[19,0,[\"owner\",\"avatar\"]],[19,0,[\"owner\",\"name\"]],126]]],false],[0,\"\\n  \"],[8],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"owner-info\"],[7],[0,\"\\n    \"],[6,\"h1\"],[9,\"class\",\"owner-title\"],[7],[1,[20,[\"owner\",\"name\"]],false],[8],[0,\"\\n    \"],[6,\"p\"],[9,\"class\",\"owner-handle\"],[7],[0,\"\\n      \"],[1,[25,\"svg-jar\",[\"icon-repooctocat\"],[[\"class\"],[\"icon--l\"]]],false],[0,\"\\n      \"],[6,\"a\"],[10,\"href\",[18,\"githubProfile\"],null],[10,\"title\",[26,[[20,[\"owner\",\"name\"]],\" on GitHub\"]]],[7],[0,\"\\n        \"],[6,\"span\"],[9,\"class\",\"label-align\"],[7],[1,[20,[\"owner\",\"login\"]],false],[8],[8],[8],[0,\"\\n\"],[0,\"  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\\n\"],[6,\"div\"],[9,\"class\",\"tabs--owner\"],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"tabbody\"],[7],[0,\"\\n    \"],[6,\"section\"],[9,\"role\",\"tabpanel\"],[7],[0,\"\\n      \"],[1,[18,\"outlet\"],false],[0,\"\\n    \"],[8],[0,\"\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"parameters\":[]},null]],\"hasEval\":false}", "meta": { "moduleName": "travis/templates/owner.hbs" } });
+});
