@@ -1,0 +1,8 @@
+define("code-corps-ember/templates/components/password/forgot-password", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "vAIWoXaI", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"container\"],[7],[0,\"\\n  \"],[6,\"form\"],[7],[0,\"\\n    \"],[6,\"h2\"],[7],[0,\"Reset your password\"],[8],[0,\"\\n\\n    \"],[6,\"p\"],[9,\"data-test-id\",\"forgot-password-header\"],[7],[0,\"Enter your email and we'll send you a link to reset your password.\"],[8],[0,\"\\n\\n    \"],[6,\"div\"],[9,\"class\",\"input-group\"],[7],[0,\"\\n\"],[4,\"auto-focus\",null,null,{\"statements\":[[0,\"        \"],[1,[25,\"input\",null,[[\"name\",\"autocapitalize\",\"type\",\"value\"],[\"email\",\"off\",\"text\",[19,0,[\"email\"]]]]],false],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"    \"],[8],[0,\"\\n\\n    \"],[6,\"div\"],[9,\"class\",\"input-group\"],[7],[0,\"\\n      \"],[6,\"button\"],[9,\"id\",\"reset-password\"],[9,\"class\",\"default\"],[9,\"type\",\"submit\"],[10,\"disabled\",[18,\"isLoading\"],null],[3,\"action\",[[19,0,[]],\"forgotPassword\",[19,0,[\"email\"]]]],[7],[0,\"\\n       Send password reset email\\n      \"],[8],[0,\"\\n    \"],[8],[0,\"\\n\\n\"],[4,\"if\",[[19,0,[\"error\"]]],null,{\"statements\":[[0,\"      \"],[1,[25,\"error-formatter\",null,[[\"error\"],[[19,0,[\"error\"]]]]],false],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "code-corps-ember/templates/components/password/forgot-password.hbs" } });
+});

@@ -1,0 +1,8 @@
+define("code-corps-ember/templates/components/payments/donation-goals", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "wcJmLY5u", "block": "{\"symbols\":[],\"statements\":[[6,\"section\"],[7],[0,\"\\n  \"],[6,\"aside\"],[7],[0,\"\\n    \"],[6,\"h3\"],[7],[4,\"if\",[[25,\"eq\",[[19,0,[\"status\"]],\"verified\"],null]],null,{\"statements\":[[1,[25,\"fa-icon\",[\"check-circle\"],null],false]],\"parameters\":[]},null],[0,\" Enable donations\"],[8],[0,\"\\n    \"],[6,\"p\"],[7],[0,\"Set your goals and start accepting donations.\"],[8],[0,\"\\n  \"],[8],[0,\"\\n\\n\"],[4,\"if\",[[25,\"eq\",[[19,0,[\"status\"]],\"required\"],null]],null,{\"statements\":[[0,\"    \"],[6,\"section\"],[9,\"data-test-section\",\"\"],[7],[0,\"\\n      \"],[6,\"div\"],[7],[0,\"\\n        \"],[6,\"label\"],[7],[0,\"Donations\"],[8],[0,\"\\n        \"],[6,\"p\"],[7],[0,\"Go set your donation goals and start accepting donations now.\"],[8],[0,\"\\n        \"],[4,\"link-to\",[\"project.settings.donations.goals\",[19,0,[\"project\"]]],[[\"class\"],[\"button default activate-donations\"]],{\"statements\":[[0,\"Set up donations\"]],\"parameters\":[]},null],[0,\"\\n      \"],[8],[0,\"\\n    \"],[8],[0,\"\\n\"]],\"parameters\":[]},null],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "code-corps-ember/templates/components/payments/donation-goals.hbs" } });
+});

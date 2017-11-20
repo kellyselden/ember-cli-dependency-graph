@@ -1,0 +1,8 @@
+define("travis/templates/components/env-var", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "y4ypOL0k", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"env-var-name\"],[7],[1,[20,[\"envVar\",\"name\"]],false],[8],[0,\"\\n\"],[6,\"div\"],[9,\"class\",\"env-var-value\"],[7],[0,\"\\n\"],[4,\"unless\",[[19,0,[\"envVar\",\"public\"]]],null,{\"statements\":[[0,\"    \"],[1,[25,\"svg-jar\",[\"icon-private\"],[[\"class\"],[\"icon\"]]],false],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"  \"],[6,\"input\"],[9,\"type\",\"pw\"],[10,\"value\",[26,[[18,\"value\"]]]],[9,\"readonly\",\"readonly\"],[7],[8],[0,\"\\n\"],[8],[0,\"\\n\"],[6,\"div\"],[9,\"class\",\"env-var-action\"],[7],[0,\"\\n\"],[4,\"if\",[[19,0,[\"delete\",\"isRunning\"]]],null,{\"statements\":[[0,\"    \"],[1,[18,\"loading-indicator\"],false],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"    \"],[6,\"button\"],[9,\"type\",\"button\"],[9,\"class\",\"no-button env-var-delete\"],[3,\"action\",[[19,0,[]],[25,\"perform\",[[19,0,[\"delete\"]]],null]],[[\"on\"],[\"click\"]]],[7],[0,\"\\n      \"],[1,[25,\"tooltip-on-element\",null,[[\"text\"],[\"Delete\"]]],false],[0,\"\\n      \"],[1,[25,\"svg-jar\",[\"icon-trash\"],[[\"class\"],[\"icon\"]]],false],[0,\"\\n    \"],[8],[0,\"\\n\"]],\"parameters\":[]}],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "travis/templates/components/env-var.hbs" } });
+});

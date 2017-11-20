@@ -1,0 +1,8 @@
+define("travis/templates/components/add-ssh-key", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "lrMcgFLC", "block": "{\"symbols\":[],\"statements\":[[6,\"form\"],[3,\"action\",[[19,0,[]],[25,\"perform\",[[19,0,[\"save\"]]],null]],[[\"on\"],[\"submit\"]]],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"form-elem\"],[7],[0,\"\\n    \"],[1,[25,\"input\",null,[[\"value\",\"class\",\"placeholder\"],[[19,0,[\"description\"]],\"ssh-description\",\"Description\"]]],false],[0,\"\\n  \"],[8],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"form-elem\"],[7],[0,\"\\n    \"],[1,[25,\"textarea\",null,[[\"value\",\"class\",\"rows\",\"placeholder\"],[[19,0,[\"value\"]],\"ssh-value\",\"10\",\"SSH Key\"]]],false],[0,\"\\n\"],[4,\"if\",[[19,0,[\"valueError\"]]],null,{\"statements\":[[0,\"      \"],[6,\"p\"],[9,\"class\",\"form-error-message\"],[7],[1,[18,\"valueError\"],false],[8],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"  \"],[8],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"form-elem\"],[7],[0,\"\\n\"],[4,\"if\",[[19,0,[\"save\",\"isRunning\"]]],null,{\"statements\":[[0,\"      \"],[1,[18,\"loading-indicator\"],false],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"      \"],[6,\"input\"],[9,\"type\",\"submit\"],[9,\"value\",\"Add\"],[9,\"class\",\"form-submit\"],[7],[8],[0,\"\\n\"]],\"parameters\":[]}],[0,\"  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "travis/templates/components/add-ssh-key.hbs" } });
+});

@@ -1,0 +1,8 @@
+define("travis/templates/components/status-icon", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "Iyhrljhs", "block": "{\"symbols\":[],\"statements\":[[4,\"if\",[[19,0,[\"isEmpty\"]]],null,{\"statements\":[[0,\"  \"],[1,[25,\"svg-jar\",[\"icon-nobuilds\"],null],false],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[19,0,[\"hasPassed\"]]],null,{\"statements\":[[0,\"    \"],[1,[25,\"svg-jar\",[\"icon-passed\"],null],false],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\n\"],[4,\"if\",[[19,0,[\"hasFailed\"]]],null,{\"statements\":[[0,\"    \"],[1,[25,\"svg-jar\",[\"icon-failed\"],null],false],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\n\"],[4,\"if\",[[19,0,[\"wasCanceled\"]]],null,{\"statements\":[[0,\"    \"],[1,[25,\"svg-jar\",[\"icon-canceled\"],null],false],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\n\"],[4,\"if\",[[19,0,[\"hasErrored\"]]],null,{\"statements\":[[0,\"    \"],[1,[25,\"svg-jar\",[\"icon-errored\"],null],false],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\n\"],[4,\"if\",[[19,0,[\"isRunning\"]]],null,{\"statements\":[[0,\"    \"],[1,[25,\"svg-jar\",[\"icon-running\"],null],false],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[]}]],\"hasEval\":false}", "meta": { "moduleName": "travis/templates/components/status-icon.hbs" } });
+});

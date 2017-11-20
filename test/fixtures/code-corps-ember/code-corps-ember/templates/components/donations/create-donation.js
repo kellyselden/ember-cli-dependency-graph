@@ -1,0 +1,8 @@
+define("code-corps-ember/templates/components/donations/create-donation", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "2RcLxWVW", "block": "{\"symbols\":[\"presetAmount\"],\"statements\":[[6,\"h3\"],[7],[0,\"Support this project each month\"],[8],[0,\"\\n\"],[6,\"div\"],[9,\"class\",\"amounts\"],[7],[0,\"\\n\"],[4,\"each\",[[19,0,[\"presetAmounts\"]]],null,{\"statements\":[[0,\"  \"],[1,[25,\"donations/donation-amount-button\",null,[[\"click\",\"presetAmount\",\"selected\"],[[25,\"action\",[[19,0,[]],\"selectPresetAmount\",[19,1,[]]],null],[19,1,[]],[25,\"eq\",[[19,1,[]],[25,\"float\",[[19,0,[\"amount\"]]],null]],null]]]],false],[0,\"\\n\"]],\"parameters\":[1]},null],[8],[0,\"\\n\"],[6,\"div\"],[9,\"class\",\"custom-amount\"],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"input-group\"],[7],[0,\"\\n    \"],[6,\"span\"],[9,\"class\",\"input-group-addon currency\"],[7],[0,\"$\"],[8],[0,\"\\n    \"],[1,[25,\"input\",null,[[\"class\",\"name\",\"type\",\"min\",\"placeholder\",\"step\",\"value\"],[\"amount\",\"amount\",\"number\",0,\"Custom amount\",1,[19,0,[\"customAmount\"]]]]],false],[0,\"\\n    \"],[6,\"span\"],[9,\"class\",\"input-group-addon period\"],[7],[0,\"per month\"],[8],[0,\"\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"],[6,\"button\"],[9,\"class\",\"continue default large\"],[10,\"disabled\",[18,\"continueDisabled\"],null],[3,\"action\",[[19,0,[]],[19,0,[\"continue\"]],[19,0,[\"selectedAmount\"]]]],[7],[0,\"Continue\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "code-corps-ember/templates/components/donations/create-donation.hbs" } });
+});

@@ -53,4 +53,28 @@ describe('Integration - index', function() {
     expect(graph.flattened.length).to.equal(1803);
     expect(graph.calculateDead().length).to.equal(75);
   });
+
+  it('travis', function() {
+    let appPath = path.join(__dirname, '../fixtures/travis');
+
+    let graph = Graph.build(appPath, 'travis');
+
+    expect(graph).to.be.an.instanceof(Graph);
+    expect(graph.root).to.be.an.instanceof(Node);
+    expect(graph.flattened.length).to.equal(1392);
+    expect(graph.calculateDead().length).to.equal(91);
+  });
+
+  it('code-corps-ember', function() {
+    let appPath = path.join(__dirname, '../fixtures/code-corps-ember');
+
+    let graph = Graph.build(appPath, 'code-corps-ember', {
+      include: ['ember-test-selectors/utils/bind-data-test-attributes.js']
+    });
+
+    expect(graph).to.be.an.instanceof(Graph);
+    expect(graph.root).to.be.an.instanceof(Node);
+    expect(graph.flattened.length).to.equal(1830);
+    expect(graph.calculateDead().length).to.equal(142);
+  });
 });

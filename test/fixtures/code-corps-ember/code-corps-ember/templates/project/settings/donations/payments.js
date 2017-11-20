@@ -1,0 +1,8 @@
+define("code-corps-ember/templates/project/settings/donations/payments", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "mkUTvE89", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"container\"],[7],[0,\"\\n  \"],[1,[25,\"payments/account-setup\",null,[[\"isBusy\",\"onBankAccountInformationSubmitted\",\"onCreateStripeConnectAccount\",\"onLegalEntityPersonalIdNumberSubmitted\",\"onRecipientDetailsSubmitted\",\"onVerificationDocumentSubmitted\",\"organizationName\",\"project\",\"stripeConnectAccount\"],[[19,0,[\"isBusy\"]],[25,\"action\",[[19,0,[]],\"onBankAccountInformationSubmitted\"],null],[25,\"action\",[[19,0,[]],\"onCreateStripeConnectAccount\"],null],[25,\"action\",[[19,0,[]],\"onLegalEntityPersonalIdNumberSubmitted\"],null],[25,\"action\",[[19,0,[]],\"onRecipientDetailsSubmitted\"],null],[25,\"action\",[[19,0,[]],\"onVerificationDocumentSubmitted\"],null],[19,0,[\"project\",\"organization\",\"name\"]],[19,0,[\"project\"]],[19,0,[\"stripeConnectAccount\"]]]]],false],[0,\"\\n\\n\"],[4,\"if\",[[19,0,[\"error\"]]],null,{\"statements\":[[0,\"    \"],[1,[25,\"error-formatter\",null,[[\"error\"],[[19,0,[\"error\"]]]]],false],[0,\"\\n\"]],\"parameters\":[]},null],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "code-corps-ember/templates/project/settings/donations/payments.hbs" } });
+});

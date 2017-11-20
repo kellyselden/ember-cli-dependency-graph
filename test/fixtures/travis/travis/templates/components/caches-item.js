@@ -1,0 +1,8 @@
+define("travis/templates/components/caches-item", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "z2/wwGvc", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"row-item row-branch\"],[7],[0,\"\\n  \"],[1,[25,\"request-icon\",null,[[\"event\"],[[19,0,[\"cache\",\"type\"]]]]],false],[0,\"\\n  \"],[6,\"span\"],[9,\"class\",\"label-align\"],[7],[1,[20,[\"cache\",\"branch\"]],false],[8],[0,\"\\n\"],[8],[0,\"\\n\"],[6,\"div\"],[9,\"class\",\"row-item row-calendar\"],[7],[0,\"\\n  \"],[1,[25,\"svg-jar\",[\"icon-calendar\"],[[\"class\"],[\"icon\"]]],false],[0,\"\\n  \"],[6,\"span\"],[9,\"class\",\"label-align\"],[7],[1,[25,\"format-time\",[[19,0,[\"cache\",\"last_modified\"]]],null],false],[8],[0,\"\\n\"],[8],[0,\"\\n\"],[6,\"div\"],[9,\"class\",\"row-item row-size\"],[7],[0,\"\\n  \"],[1,[25,\"svg-jar\",[\"icon-scales\"],[[\"class\"],[\"icon\"]]],false],[0,\"\\n  \"],[6,\"span\"],[9,\"class\",\"label-align\"],[7],[1,[25,\"travis-mb\",[[19,0,[\"cache\",\"size\"]]],null],false],[0,\"MB\"],[8],[0,\"\\n\"],[8],[0,\"\\n\"],[6,\"div\"],[9,\"class\",\"row-item\"],[7],[0,\"\\n  \"],[6,\"a\"],[9,\"href\",\"#\"],[10,\"class\",[26,[[25,\"if\",[[19,0,[\"delete\",\"isRunning\"]],\"deleting\"],null],\" delete-cache-icon\"]]],[9,\"title\",\"Delete this cache\"],[3,\"action\",[[19,0,[]],\"performDelete\"]],[7],[0,\"\\n    \"],[1,[25,\"tooltip-on-element\",null,[[\"text\"],[\"Delete\"]]],false],[0,\"\\n    \"],[1,[25,\"svg-jar\",[\"icon-trash\"],[[\"class\"],[\"icon\"]]],false],[0,\"\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "travis/templates/components/caches-item.hbs" } });
+});

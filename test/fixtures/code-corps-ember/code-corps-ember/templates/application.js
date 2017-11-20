@@ -1,0 +1,8 @@
+define("code-corps-ember/templates/application", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "o5PJrld7", "block": "{\"symbols\":[],\"statements\":[[1,[25,\"page-title\",[\"Code Corps\"],null],false],[0,\"\\n\\n\"],[1,[18,\"ember-load-remover\"],false],[0,\"\\n\\n\"],[1,[18,\"svg/sprite-map\"],false],[0,\"\\n\\n\"],[4,\"drag-zone\",null,null,{\"statements\":[[0,\"  \"],[6,\"div\"],[9,\"id\",\"application\"],[9,\"class\",\"flexbox-container\"],[7],[0,\"\\n    \"],[1,[18,\"loading-bar\"],false],[0,\"\\n\"],[0,\"    \"],[1,[18,\"navigation-menu\"],false],[0,\"\\n    \"],[1,[18,\"flash-messages\"],false],[0,\"\\n    \"],[6,\"div\"],[10,\"class\",[26,[\"site-content \",[25,\"if\",[[19,0,[\"isOnboarding\"]],\"site-content--start\"],null],\" \",[20,[\"codeTheme\",\"className\"]],\" \",[20,[\"projectTaskBoard\",\"className\"]]]]],[7],[0,\"\\n      \"],[1,[18,\"outlet\"],false],[0,\"\\n    \"],[8],[0,\"\\n\"],[4,\"if\",[[19,0,[\"shouldShowSpacer\"]]],null,{\"statements\":[[0,\"      \"],[6,\"div\"],[9,\"class\",\"flexbox-spacer\"],[7],[8],[0,\"\\n\"]],\"parameters\":[]},null],[4,\"if\",[[19,0,[\"shouldShowFooter\"]]],null,{\"statements\":[[0,\"      \"],[1,[18,\"site-footer\"],false],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"  \"],[8],[0,\"\\n\"]],\"parameters\":[]},null]],\"hasEval\":false}", "meta": { "moduleName": "code-corps-ember/templates/application.hbs" } });
+});

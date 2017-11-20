@@ -1,0 +1,8 @@
+define("code-corps-ember/templates/components/category-item", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "xJBZHNTF", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[10,\"class\",[26,[\"category-item__icon \",[18,\"iconClass\"]]]],[7],[8],[0,\"\\n\\n\"],[4,\"if\",[[19,0,[\"selected\"]]],null,{\"statements\":[[0,\"  \"],[6,\"button\"],[9,\"class\",\"default has-spinner\"],[10,\"disabled\",[18,\"isLoading\"],null],[3,\"action\",[[19,0,[]],\"removeCategory\",[19,0,[\"category\"]]]],[7],[0,\"\\n    \"],[6,\"span\"],[10,\"class\",[26,[[25,\"if\",[[19,0,[\"isLoading\"]],\"button-spinner\",\"check-mark\"],null]]]],[7],[8],[0,\"\\n    \"],[1,[20,[\"category\",\"name\"]],false],[0,\"\\n  \"],[8],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"  \"],[6,\"button\"],[9,\"class\",\"clear has-spinner\"],[10,\"disabled\",[18,\"isLoading\"],null],[3,\"action\",[[19,0,[]],\"addCategory\",[19,0,[\"category\"]]]],[7],[0,\"\\n    \"],[6,\"span\"],[10,\"class\",[26,[[25,\"if\",[[19,0,[\"isLoading\"]],\"button-spinner\",\"check-area\"],null]]]],[7],[8],[0,\"\\n    \"],[1,[20,[\"category\",\"name\"]],false],[0,\"\\n  \"],[8],[0,\"\\n\"]],\"parameters\":[]}],[0,\"\\n\"],[6,\"p\"],[7],[1,[20,[\"category\",\"description\"]],false],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "code-corps-ember/templates/components/category-item.hbs" } });
+});
