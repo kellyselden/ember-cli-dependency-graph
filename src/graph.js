@@ -55,7 +55,10 @@ function recurse(node, entryPath, entryName, visited) {
       let browserify = parts[1];
       if (browserify) {
         dep = 'browserify/browserify.js';
-        attempts.push({ dep, original });
+        // attempts.push({ dep, original });
+        // we don't need scan this file for deps
+        visited.add(dep);
+        return;
       } else if (root === 'ember-data') {
         // if (rest === '-private') {
         //   dep = rest;
