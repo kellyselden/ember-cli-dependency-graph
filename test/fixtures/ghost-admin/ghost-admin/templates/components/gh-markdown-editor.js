@@ -1,0 +1,8 @@
+define("ghost-admin/templates/components/gh-markdown-editor", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "HW/cYiVv", "block": "{\"symbols\":[\"&default\"],\"statements\":[[11,1,[[25,\"hash\",null,[[\"editor\",\"isFullScreen\",\"isSplitScreen\",\"focus\"],[[25,\"component\",[\"gh-simplemde\"],[[\"value\",\"placeholder\",\"autofocus\",\"onChange\",\"onFocus\",\"onBlur\",\"onEditorInit\",\"onEditorDestroy\",\"options\"],[[20,[\"markdown\"]],[20,[\"placeholder\"]],[20,[\"autofocus\"]],[25,\"action\",[[19,0,[]],\"updateMarkdown\"],null],[25,\"action\",[[19,0,[]],\"updateFocusState\",true],null],[25,\"action\",[[19,0,[]],\"updateFocusState\",false],null],[25,\"action\",[[19,0,[]],\"setEditor\"],null],[25,\"action\",[[19,0,[]],\"destroyEditor\"],null],[20,[\"simpleMDEOptions\"]]]]],[20,[\"_isFullScreen\"]],[20,[\"_isSplitScreen\"]],[25,\"action\",[[19,0,[]],\"focusEditor\"],null]]]]]],[0,\"\\n\\n\"],[6,\"div\"],[9,\"style\",\"display:none\"],[7],[0,\"\\n    \"],[1,[25,\"gh-file-input\",null,[[\"multiple\",\"action\",\"accept\"],[true,[25,\"action\",[[19,0,[]],[20,[\"onImageFilesSelected\"]]],null],[20,[\"imageMimeTypes\"]]]]],false],[0,\"\\n\"],[8],[0,\"\\n\\n\"],[4,\"if\",[[20,[\"_showUnsplash\"]]],null,{\"statements\":[[0,\"    \"],[1,[25,\"gh-unsplash\",null,[[\"insert\",\"close\"],[[25,\"action\",[[19,0,[]],\"insertUnsplashPhoto\"],null],[25,\"action\",[[19,0,[]],\"toggleUnsplash\"],null]]]],false],[0,\"\\n\"]],\"parameters\":[]},null]],\"hasEval\":false}", "meta": { "moduleName": "ghost-admin/templates/components/gh-markdown-editor.hbs" } });
+});

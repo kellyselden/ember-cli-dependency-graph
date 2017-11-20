@@ -1,0 +1,30 @@
+{
+  "name": "auth0-lock-passwordless",
+  "version": "2.2.3",
+  "main": "build/lock-passwordless.js",
+  "ignore": [
+    "lib-cov",
+    "*.seed",
+    "*.log",
+    "*.csv",
+    "*.dat",
+    "*.out",
+    "*.pid",
+    "*.gz",
+    "pids",
+    "logs",
+    "results",
+    "npm-debug.log",
+    "bin"
+  ],
+  "homepage": "https://github.com/auth0/lock-passwordless",
+  "_release": "2.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.2.3",
+    "commit": "c7e3d00da3b7f1759bae4b12f92cbb45112cc966"
+  },
+  "_source": "https://github.com/auth0/lock-passwordless.git",
+  "_target": "^2.2.3",
+  "_originalSource": "auth0-lock-passwordless"
+}

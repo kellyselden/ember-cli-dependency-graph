@@ -1,0 +1,6 @@
+define("ember-light-table/templates/components/light-table", ["exports"], function (exports) {
+  "use strict";
+
+  exports.__esModule = true;
+  exports.default = Ember.HTMLBars.template({ "id": "epMRfd49", "block": "{\"symbols\":[\"&default\"],\"statements\":[[11,1,[[25,\"hash\",null,[[\"head\",\"body\",\"foot\"],[[25,\"component\",[\"lt-head\"],[[\"tableId\",\"table\",\"tableActions\",\"tableClassNames\",\"sharedOptions\"],[[20,[\"elementId\"]],[20,[\"table\"]],[20,[\"tableActions\"]],[20,[\"tableClassNames\"]],[20,[\"sharedOptions\"]]]]],[25,\"component\",[\"lt-body\"],[[\"tableId\",\"table\",\"tableActions\",\"tableClassNames\",\"sharedOptions\"],[[20,[\"elementId\"]],[20,[\"table\"]],[20,[\"tableActions\"]],[20,[\"tableClassNames\"]],[20,[\"sharedOptions\"]]]]],[25,\"component\",[\"lt-foot\"],[[\"tableId\",\"table\",\"tableActions\",\"tableClassNames\",\"sharedOptions\"],[[20,[\"elementId\"]],[20,[\"table\"]],[20,[\"tableActions\"]],[20,[\"tableClassNames\"]],[20,[\"sharedOptions\"]]]]]]]]]],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "ember-light-table/templates/components/light-table.hbs" } });
+});

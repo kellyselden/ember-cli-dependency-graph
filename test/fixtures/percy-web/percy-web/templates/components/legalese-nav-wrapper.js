@@ -1,0 +1,8 @@
+define("percy-web/templates/components/legalese-nav-wrapper", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "bOJVWVvl", "block": "{\"symbols\":[\"&default\"],\"statements\":[[6,\"div\"],[9,\"class\",\"container container--fixedWidth container--forContent\"],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"row\"],[7],[0,\"\\n    \"],[6,\"div\"],[9,\"class\",\"three columns\"],[7],[0,\"\\n      \"],[6,\"div\"],[9,\"class\",\"Panel\"],[7],[0,\"\\n        \"],[6,\"div\"],[9,\"class\",\"Panel-nav\"],[7],[0,\"\\n          \"],[6,\"ul\"],[7],[0,\"\\n            \"],[6,\"li\"],[7],[4,\"link-to\",[\"about\"],[[\"classNames\"],[\"Button Button--nav\"]],{\"statements\":[[0,\"About\"]],\"parameters\":[]},null],[8],[0,\"\\n            \"],[6,\"li\"],[7],[4,\"link-to\",[\"security\"],[[\"classNames\"],[\"Button Button--nav\"]],{\"statements\":[[0,\"Security\"]],\"parameters\":[]},null],[8],[0,\"\\n            \"],[6,\"li\"],[7],[4,\"link-to\",[\"terms\"],[[\"classNames\"],[\"Button Button--nav\"]],{\"statements\":[[0,\"Terms\"]],\"parameters\":[]},null],[8],[0,\"\\n            \"],[6,\"li\"],[7],[4,\"link-to\",[\"privacy\"],[[\"classNames\"],[\"Button Button--nav\"]],{\"statements\":[[0,\"Privacy\"]],\"parameters\":[]},null],[8],[0,\"\\n          \"],[8],[0,\"\\n        \"],[8],[0,\"\\n      \"],[8],[0,\"\\n    \"],[8],[0,\"\\n    \"],[6,\"div\"],[9,\"class\",\"nine columns\"],[7],[0,\"\\n      \"],[11,1],[0,\"\\n    \"],[8],[0,\"\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/components/legalese-nav-wrapper.hbs" } });
+});

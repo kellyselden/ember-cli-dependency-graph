@@ -1,0 +1,8 @@
+define("ghost-admin/templates/components/gh-subscribers-table", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "HxMhepJn", "block": "{\"symbols\":[\"t\",\"body\"],\"statements\":[[4,\"light-table\",[[20,[\"table\"]]],[[\"scrollBuffer\"],[100]],{\"statements\":[[0,\"    \"],[1,[25,\"component\",[[19,1,[\"head\"]]],[[\"onColumnClick\",\"iconAscending\",\"iconDescending\"],[[25,\"action\",[[19,0,[]],[20,[\"sortByColumn\"]]],null],\"gh-icon-ascending\",\"gh-icon-descending\"]]],false],[0,\"\\n\\n\"],[4,\"component\",[[19,1,[\"body\"]]],[[\"canSelect\",\"tableActions\",\"scrollBuffer\",\"onScrolledToBottom\"],[false,[25,\"hash\",null,[[\"delete\"],[[20,[\"delete\"]]]]],100,[25,\"action\",[[19,0,[]],\"onScrolledToBottom\"],null]]],{\"statements\":[[4,\"if\",[[20,[\"isLoading\"]]],null,{\"statements\":[[4,\"component\",[[19,2,[\"loader\"]]],null,{\"statements\":[[0,\"                \"],[6,\"div\"],[9,\"class\",\"gh-loading-content\"],[9,\"style\",\"margin-top: 2em;\"],[7],[0,\"\\n                    \"],[6,\"div\"],[9,\"class\",\"gh-loading-spinner\"],[7],[8],[0,\"\\n                \"],[8],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[20,[\"table\",\"isEmpty\"]]],null,{\"statements\":[[4,\"component\",[[19,2,[\"no-data\"]]],null,{\"statements\":[[0,\"                    No subscribers found.\\n\"]],\"parameters\":[]},null]],\"parameters\":[]},null]],\"parameters\":[]}]],\"parameters\":[2]},null]],\"parameters\":[1]},null]],\"hasEval\":false}", "meta": { "moduleName": "ghost-admin/templates/components/gh-subscribers-table.hbs" } });
+});

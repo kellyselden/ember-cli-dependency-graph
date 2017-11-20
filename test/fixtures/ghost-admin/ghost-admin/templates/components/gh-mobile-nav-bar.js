@@ -1,0 +1,8 @@
+define("ghost-admin/templates/components/gh-mobile-nav-bar", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "yNUOx3r9", "block": "{\"symbols\":[\"&default\"],\"statements\":[[4,\"link-to\",[\"editor.new\"],[[\"classNames\"],[\"gh-nav-main-editor\"]],{\"statements\":[[1,[25,\"inline-svg\",[\"pen\"],null],false],[0,\"New story\"]],\"parameters\":[]},null],[0,\"\\n\"],[4,\"if\",[[25,\"eq\",[[20,[\"router\",\"currentRouteName\"]],\"posts.index\"],null]],null,{\"statements\":[[0,\"    \"],[4,\"link-to\",[\"posts\",[25,\"query-params\",null,[[\"type\"],[null]]]],[[\"classNames\"],[\"gh-nav-main-content active\"]],{\"statements\":[[1,[25,\"inline-svg\",[\"content\"],null],false],[0,\"Stories\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"    \"],[4,\"link-to\",[\"posts\"],[[\"classNames\"],[\"gh-nav-main-content\"]],{\"statements\":[[1,[25,\"inline-svg\",[\"content\"],null],false],[0,\"Content\"]],\"parameters\":[]},null],[0,\"\\n\"]],\"parameters\":[]}],[4,\"link-to\",[\"team\"],[[\"classNames\"],[\"gh-nav-main-users\"]],{\"statements\":[[1,[25,\"inline-svg\",[\"account-group\"],null],false],[0,\"Team\"]],\"parameters\":[]},null],[0,\"\\n\"],[6,\"div\"],[9,\"class\",\"gh-mobile-nav-bar-more\"],[3,\"action\",[[19,0,[]],\"openMobileMenu\"],[[\"target\"],[[20,[\"ui\"]]]]],[7],[1,[25,\"inline-svg\",[\"icon\"],[[\"class\"],[\"icon-gh\"]]],false],[0,\"More\"],[8],[0,\"\\n\"],[11,1],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "ghost-admin/templates/components/gh-mobile-nav-bar.hbs" } });
+});

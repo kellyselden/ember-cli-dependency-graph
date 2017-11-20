@@ -1,0 +1,8 @@
+define("ghost-admin/templates/components/gh-task-button", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "ALQr622d", "block": "{\"symbols\":[\"&default\"],\"statements\":[[4,\"if\",[[22,1]],null,{\"statements\":[[0,\"    \"],[11,1,[[25,\"hash\",null,[[\"isIdle\",\"isRunning\",\"isSuccess\",\"isFailure\"],[[20,[\"isIdle\"]],[20,[\"isRunning\"]],[20,[\"isSuccess\"]],[20,[\"isFailure\"]]]]]]],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"    \"],[6,\"span\"],[7],[0,\"\\n    \"],[4,\"if\",[[20,[\"isRunning\"]]],null,{\"statements\":[[1,[25,\"inline-svg\",[\"spinner\"],[[\"class\"],[\"gh-icon-spinner\"]]],false],[1,[18,\"runningText\"],false]],\"parameters\":[]},null],[0,\"\\n    \"],[4,\"if\",[[20,[\"isIdle\"]]],null,{\"statements\":[[1,[18,\"buttonText\"],false]],\"parameters\":[]},null],[0,\"\\n    \"],[4,\"if\",[[20,[\"isSuccess\"]]],null,{\"statements\":[[1,[25,\"inline-svg\",[\"check-circle\"],null],false],[0,\" \"],[1,[18,\"successText\"],false]],\"parameters\":[]},null],[0,\"\\n    \"],[4,\"if\",[[20,[\"isFailure\"]]],null,{\"statements\":[[1,[25,\"inline-svg\",[\"retry\"],null],false],[0,\" \"],[1,[18,\"failureText\"],false]],\"parameters\":[]},null],[0,\"\\n    \"],[8],[0,\"\\n\"]],\"parameters\":[]}]],\"hasEval\":false}", "meta": { "moduleName": "ghost-admin/templates/components/gh-task-button.hbs" } });
+});

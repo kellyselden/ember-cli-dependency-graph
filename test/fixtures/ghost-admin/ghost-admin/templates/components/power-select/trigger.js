@@ -1,0 +1,8 @@
+define("ghost-admin/templates/components/power-select/trigger", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "ILZrxAQc", "block": "{\"symbols\":[\"&default\"],\"statements\":[[4,\"if\",[[20,[\"select\",\"selected\"]]],null,{\"statements\":[[4,\"if\",[[20,[\"selectedItemComponent\"]]],null,{\"statements\":[[0,\"        \"],[1,[25,\"component\",[[20,[\"selectedItemComponent\"]]],[[\"option\",\"select\"],[[25,\"readonly\",[[20,[\"select\",\"selected\"]]],null],[25,\"readonly\",[[20,[\"select\"]]],null]]]],false],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"        \"],[6,\"span\"],[9,\"class\",\"ember-power-select-selected-item\"],[7],[11,1,[[20,[\"select\",\"selected\"]],[20,[\"select\"]]]],[8],[0,\"\\n\"]],\"parameters\":[]}],[4,\"if\",[[25,\"and\",[[20,[\"allowClear\"]],[25,\"not\",[[20,[\"select\",\"disabled\"]]],null]],null]],null,{\"statements\":[[0,\"        \"],[6,\"span\"],[9,\"class\",\"ember-power-select-clear-btn\"],[10,\"onmousedown\",[25,\"action\",[[19,0,[]],\"clear\"],null],null],[10,\"ontouchstart\",[25,\"action\",[[19,0,[]],\"clear\"],null],null],[7],[0,\"×\"],[8],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[]},{\"statements\":[[0,\"    \"],[1,[25,\"component\",[[20,[\"placeholderComponent\"]]],[[\"placeholder\"],[[20,[\"placeholder\"]]]]],false],[0,\"\\n\"]],\"parameters\":[]}],[1,[25,\"inline-svg\",[\"arrow-down-small\"],null],false],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "ghost-admin/templates/components/power-select/trigger.hbs" } });
+});

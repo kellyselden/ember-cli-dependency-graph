@@ -1,0 +1,6 @@
+define("vertical-collection/components/vertical-collection/template", ["exports"], function (exports) {
+  "use strict";
+
+  exports.__esModule = true;
+  exports.default = Ember.HTMLBars.template({ "id": "SRzJzRFb", "block": "{\"symbols\":[\"virtualComponent\",\"index\",\"&inverse\",\"&default\"],\"statements\":[[4,\"each\",[[20,[\"virtualComponents\"]]],[[\"key\"],[\"id\"]],{\"statements\":[[1,[25,\"unbound\",[[19,1,[\"upperBound\"]]],null],false],[4,\"if\",[[19,1,[\"element\"]]],null,{\"statements\":[[1,[25,\"unbound\",[[19,1,[\"element\"]]],null],true]],\"parameters\":[]},{\"statements\":[[11,4,[[19,1,[\"content\"]],[19,1,[\"index\"]]]]],\"parameters\":[]}],[1,[25,\"unbound\",[[19,1,[\"lowerBound\"]]],null],false]],\"parameters\":[1,2]},null],[0,\"\\n\"],[4,\"if\",[[20,[\"shouldYieldToInverse\"]]],null,{\"statements\":[[0,\"  \"],[11,3],[0,\"\\n\"]],\"parameters\":[]},null]],\"hasEval\":false}", "meta": { "moduleName": "vertical-collection/components/vertical-collection/template.hbs" } });
+});

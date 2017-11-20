@@ -1,0 +1,8 @@
+define("package-hint-historic-resolver/templates/components/dependency-table", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "OAGHYYeO", "block": "{\"symbols\":[\"dependency\"],\"statements\":[[6,\"table\"],[7],[0,\"\\n  \"],[6,\"tr\"],[7],[0,\"\\n    \"],[6,\"th\"],[9,\"class\",\"group-title\"],[7],[1,[18,\"title\"],false],[8],[0,\"\\n    \"],[6,\"th\"],[7],[0,\"First Commit Date\"],[8],[0,\"\\n    \"],[6,\"th\"],[7],[0,\"Second Commit Date\"],[8],[0,\"\\n    \"],[6,\"th\"],[7],[0,\"Repo is Working Date\"],[8],[0,\"\\n    \"],[6,\"th\"],[7],[0,\"Repo is Broken Date\"],[8],[0,\"\\n  \"],[8],[0,\"\\n  \"],[6,\"tr\"],[7],[0,\"\\n    \"],[6,\"th\"],[7],[8],[0,\"\\n    \"],[6,\"th\"],[9,\"class\",\"first-commit-date\"],[7],[1,[25,\"format-date-time\",[[20,[\"firstCommitDate\"]]],null],false],[8],[0,\"\\n    \"],[6,\"th\"],[9,\"class\",\"second-commit-date\"],[7],[1,[25,\"format-date-time\",[[20,[\"secondCommitDate\"]]],null],false],[8],[0,\"\\n    \"],[6,\"th\"],[9,\"class\",\"repo-working-date\"],[7],[1,[25,\"format-date-time\",[[20,[\"repoWorkingDate\"]]],null],false],[8],[0,\"\\n    \"],[6,\"th\"],[9,\"class\",\"repo-broken-date\"],[7],[1,[25,\"format-date-time\",[[20,[\"repoBrokenDate\"]]],null],false],[8],[0,\"\\n  \"],[8],[0,\"\\n\"],[4,\"each\",[[20,[\"dependencies\"]]],null,{\"statements\":[[0,\"    \"],[1,[25,\"dependency-row\",null,[[\"dependency\",\"shouldOnlyShowDifferent\"],[[19,1,[]],[20,[\"shouldOnlyShowDifferent\"]]]]],false],[0,\"\\n\"]],\"parameters\":[1]},null],[8]],\"hasEval\":false}", "meta": { "moduleName": "package-hint-historic-resolver/templates/components/dependency-table.hbs" } });
+});

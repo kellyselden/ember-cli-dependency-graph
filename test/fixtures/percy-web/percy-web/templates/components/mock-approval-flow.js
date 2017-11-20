@@ -1,0 +1,8 @@
+define("percy-web/templates/components/mock-approval-flow", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "O2YkcGtr", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"row\"],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"one-half column\"],[7],[0,\"\\n    \"],[6,\"div\"],[9,\"class\",\"MockApprovalFlow-window\"],[7],[0,\"\\n\"],[0,\"      \"],[1,[25,\"mock-approval-button\",null,[[\"isApproved\",\"isButtonHovered\",\"isButtonActive\"],[[20,[\"isApproved\"]],[20,[\"isButtonHovered\"]],[20,[\"isButtonActive\"]]]]],false],[0,\"\\n      \"],[6,\"img\"],[9,\"src\",\"/images/example-approval.png\"],[9,\"alt\",\"Example approval window\"],[7],[8],[0,\"\\n    \"],[8],[0,\"\\n  \"],[8],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"one-half column\"],[7],[0,\"\\n    \"],[6,\"img\"],[9,\"src\",\"/images/github-mock-success.png\"],[9,\"class\",\"MockApprovalFlow-github\"],[10,\"style\",[18,\"showWhenApproved\"],null],[9,\"alt\",\"Example GitHub PR success\"],[3,\"action\",[[19,0,[]],\"toggleOverlay\"]],[7],[8],[0,\"\\n    \"],[6,\"img\"],[9,\"src\",\"/images/github-mock-failure.png\"],[9,\"class\",\"MockApprovalFlow-github\"],[10,\"style\",[18,\"hideWhenApproved\"],null],[9,\"alt\",\"Example GitHub PR failure\"],[3,\"action\",[[19,0,[]],\"toggleOverlay\"]],[7],[8],[0,\"\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/components/mock-approval-flow.hbs" } });
+});

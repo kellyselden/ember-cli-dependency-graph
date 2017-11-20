@@ -1,0 +1,8 @@
+define("percy-web/templates/components/fixed-top-header", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "JPRdIv1t", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"container\"],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"Header Header--dark\"],[7],[0,\"\\n    \"],[6,\"div\"],[9,\"class\",\"NavMenu\"],[7],[0,\"\\n      \"],[6,\"div\"],[9,\"class\",\"NavMenu-Item--left\"],[7],[0,\"\\n\"],[4,\"link-to\",[\"index\"],null,{\"statements\":[[0,\"          \"],[6,\"img\"],[9,\"src\",\"/images/percy.svg\"],[9,\"class\",\"Header-logo u-pull-left\"],[7],[8],[0,\"\\n          \"],[6,\"div\"],[9,\"class\",\"Header-title u-pull-left\"],[7],[0,\"   \\n            Percy   \\n          \"],[8],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"      \"],[8],[0,\"\\n    \"],[8],[0,\"\\n    \"],[6,\"div\"],[9,\"class\",\"u-pull-left\"],[7],[0,\"\\n\"],[4,\"if\",[[20,[\"session\",\"isAuthenticated\"]]],null,{\"statements\":[[0,\"        \"],[1,[25,\"organizations/switcher-nav\",null,[[\"currentOrganization\"],[[20,[\"currentOrganization\"]]]]],false],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"    \"],[8],[0,\"\\n\\n\"],[4,\"if\",[[20,[\"session\",\"isAuthenticated\"]]],null,{\"statements\":[[0,\"      \"],[1,[25,\"nav-menu\",null,[[\"user\",\"currentOrganization\"],[[20,[\"session\",\"currentUser\"]],[20,[\"currentOrganization\"]]]]],false],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"      \"],[1,[18,\"nav-menu\"],false],[0,\"\\n\"]],\"parameters\":[]}],[0,\"  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/components/fixed-top-header.hbs" } });
+});

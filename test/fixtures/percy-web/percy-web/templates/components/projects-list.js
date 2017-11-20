@@ -1,0 +1,8 @@
+define("percy-web/templates/components/projects-list", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "JmOevTMG", "block": "{\"symbols\":[\"project\",\"build\"],\"statements\":[[4,\"each\",[[20,[\"projects\"]]],null,{\"statements\":[[0,\"  \"],[1,[25,\"project-card\",null,[[\"project\"],[[19,1,[]]]]],false],[0,\"\\n\"],[4,\"if\",[[19,1,[\"isEnabled\"]]],null,{\"statements\":[[0,\"    \"],[6,\"div\"],[9,\"class\",\"ProjectsList-recentBuilds\"],[7],[0,\"\\n\"],[4,\"if\",[[19,1,[\"recentBuilds\",\"isPending\"]]],null,{\"statements\":[[0,\"        \"],[1,[18,\"loading-page\"],false],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[19,1,[\"recentBuilds\"]]],null,{\"statements\":[[4,\"each\",[[19,1,[\"recentBuilds\"]]],null,{\"statements\":[[0,\"            \"],[1,[25,\"build-card\",null,[[\"build\"],[[19,2,[]]]]],false],[0,\"\\n\"]],\"parameters\":[2]},null]],\"parameters\":[]},{\"statements\":[[0,\"          \"],[6,\"div\"],[9,\"class\",\"ProjectsList-empty\"],[7],[0,\"\\n            \"],[6,\"p\"],[7],[0,\"\\n              Waiting for first snapshot. \\n              \"],[4,\"link-to\",[\"organization.project.index\",[19,1,[\"organization\",\"slug\"]],[19,1,[\"slug\"]]],[[\"class\"],[\"Button\"]],{\"statements\":[[0,\"Get started\"]],\"parameters\":[]},null],[0,\"\\n            \"],[8],[0,\"\\n          \"],[8],[0,\"\\n\"]],\"parameters\":[]}]],\"parameters\":[]}],[0,\"    \"],[8],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[1]},null]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/components/projects-list.hbs" } });
+});

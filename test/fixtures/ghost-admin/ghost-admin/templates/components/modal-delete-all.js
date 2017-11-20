@@ -1,0 +1,8 @@
+define("ghost-admin/templates/components/modal-delete-all", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "2gGZAKSw", "block": "{\"symbols\":[],\"statements\":[[6,\"header\"],[9,\"class\",\"modal-header\"],[7],[0,\"\\n    \"],[6,\"h1\"],[7],[0,\"Would you really like to delete all content from your blog?\"],[8],[0,\"\\n\"],[8],[0,\"\\n\"],[6,\"a\"],[9,\"class\",\"close\"],[9,\"href\",\"\"],[9,\"title\",\"Close\"],[3,\"action\",[[19,0,[]],\"closeModal\"]],[7],[1,[25,\"inline-svg\",[\"close\"],null],false],[6,\"span\"],[9,\"class\",\"hidden\"],[7],[0,\"Close\"],[8],[8],[0,\"\\n\\n\"],[6,\"div\"],[9,\"class\",\"modal-body\"],[7],[0,\"\\n    \"],[6,\"p\"],[7],[0,\"This is permanent! No backups, no restores, no magic undo button. We warned you, k?\"],[8],[0,\"\\n\"],[8],[0,\"\\n\\n\"],[6,\"div\"],[9,\"class\",\"modal-footer\"],[7],[0,\"\\n    \"],[6,\"button\"],[9,\"class\",\"gh-btn\"],[3,\"action\",[[19,0,[]],\"closeModal\"]],[7],[6,\"span\"],[7],[0,\"Cancel\"],[8],[8],[0,\"\\n    \"],[1,[25,\"gh-task-button\",[\"Delete\"],[[\"successText\",\"task\",\"class\"],[\"Deleted\",[20,[\"deleteAll\"]],\"gh-btn gh-btn-red gh-btn-icon\"]]],false],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "ghost-admin/templates/components/modal-delete-all.hbs" } });
+});

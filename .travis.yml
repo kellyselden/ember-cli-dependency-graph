@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '4'
+cache:
+  directories:
+  - "$HOME/.npm"
+deploy:
+  provider: npm
+  email: kellyselden@gmail.com
+  api_key:
+    secure: iRBhoDArp4Pzst+M42y67xgEk/t2Yzfv8jhiO+aMAJay6FzgSZAnB3UeYy/+AkY+ZL8sDc4Ue4UT54l6SJjSzOjlYXyY4pzPyr0yVVKY9kwcYWrUW1MSJgWeYkPrrxMF2gQYsqBkuMltajFgqg/TYR0GM372lh2hs6q8Lc7leAymaFk/ioXjysUUovcVJ32l5z25hN/Pv8oQOfBulZjIGpY3rNIWqGws9efEfbTQFGxHOT99ud2u5pf/g64gqKBF2sXuCABc3pkZLfZzZTsQksdNgrjAwxckj5Nb7E3C6oXejA2YKAOIfZezwbMRwNEi1UCrx0bXU/zdSSJMsT8YdlL9Ol1cquCZUvOrzqUDJ6q35HjQOu+RA9YynYAG9xNgm/g90siP+vV1cvMFrFMup/QdbTnEzmrSiDguoe09VXhgAYa4EHiZdnwVRp5v6KHFsE+fX0E518qF+3IfdBlZ9ss1iIwIV8PiGpsWn/PArGYA4aP12VYFT6w7TjWguODh/YkxXdy/JqsDs4aiOpvxqt9OaQKJ50W2VmNCK7bSuioJ+X/xrzXjM6nwIjCJjCWyUNhJ4nYuXR6gZ86mmVC/EI6lC8YGS9xKT3V02UqbuKuTwLDpECPou+HdmBzbz9UNlwVD3at8NoQC/M1S8TKujRoS9WGvN1IiYeUkspooGIs=
+  on:
+    tags: true
+    repo: kellyselden/ember-cli-dependency-graph

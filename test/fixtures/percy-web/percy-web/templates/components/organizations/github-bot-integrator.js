@@ -1,0 +1,8 @@
+define("percy-web/templates/components/organizations/github-bot-integrator", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "tPL779ZA", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"Card\"],[7],[0,\"\\n\"],[4,\"if\",[[20,[\"changeset\",\"githubBotUser\"]]],null,{\"statements\":[[0,\"    \"],[1,[25,\"user-avatar\",null,[[\"user\",\"width\",\"linked\"],[[20,[\"changeset\",\"githubBotUser\"]],36,true]]],false],[0,\"\\n    \"],[1,[25,\"user-name\",null,[[\"user\"],[[20,[\"changeset\",\"githubBotUser\"]]]]],false],[0,\"\\n\"],[4,\"if\",[[20,[\"changeset\",\"isDirty\"]]],null,{\"statements\":[[0,\"      \"],[6,\"i\"],[9,\"class\",\"unsaved\"],[7],[0,\"(unsaved)\"],[8],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[]},{\"statements\":[[0,\"    \"],[1,[25,\"user-avatar\",null,[[\"showPlaceholder\",\"width\"],[true,36]]],false],[0,\"\\n    \"],[6,\"strong\"],[7],[0,\"No user selected\"],[8],[0,\"\\n\"]],\"parameters\":[]}],[0,\"  \"],[6,\"a\"],[9,\"href\",\"#\"],[10,\"class\",[26,[\"Button \",[25,\"if\",[[20,[\"changeset\",\"githubBotUser\"]],\"\",\"Button--primary\"],null]]]],[3,\"action\",[[19,0,[]],\"assignMe\"]],[7],[0,\"\\n    Assign Me\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"],[6,\"p\"],[7],[0,\"\\n  This user's GitHub OAuth access token will be used for all Percy requests to the GitHub API, such as setting Pull Request commit statuses and reading repository metadata. To assign a different user, login to Percy with a different GitHub account.\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/components/organizations/github-bot-integrator.hbs" } });
+});

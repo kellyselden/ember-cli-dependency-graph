@@ -1,0 +1,8 @@
+define("ghost-admin/templates/components/power-select-vertical-collection-options", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "lES2jR6S", "block": "{\"symbols\":[\"opt\",\"index\",\"&default\"],\"statements\":[[4,\"if\",[[20,[\"select\",\"loading\"]]],null,{\"statements\":[[4,\"if\",[[20,[\"loadingMessage\"]]],null,{\"statements\":[[0,\"        \"],[6,\"li\"],[9,\"class\",\"ember-power-select-option ember-power-select-option--loading-message\"],[9,\"role\",\"option\"],[7],[1,[18,\"loadingMessage\"],false],[8],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[]},null],[0,\"\\n\"],[4,\"vertical-collection\",[[20,[\"options\"]]],[[\"minHeight\",\"estimateHeight\",\"bufferSize\"],[30,6,10]],{\"statements\":[[0,\"    \"],[6,\"li\"],[9,\"class\",\"ember-power-select-option\"],[10,\"aria-selected\",[26,[[25,\"ember-power-select-is-selected\",[[19,1,[]],[20,[\"select\",\"selected\"]]],null]]]],[10,\"aria-disabled\",[25,\"ember-power-select-true-string-if-present\",[[19,1,[\"disabled\"]]],null],null],[10,\"aria-current\",[26,[[25,\"eq\",[[19,1,[]],[20,[\"select\",\"highlighted\"]]],null]]]],[10,\"data-option-index\",[26,[[18,\"groupIndex\"],[19,2,[]]]]],[9,\"role\",\"option\"],[7],[0,\"\\n        \"],[11,3,[[19,1,[]],[20,[\"select\"]]]],[0,\"\\n    \"],[8],[0,\"\\n\"]],\"parameters\":[1,2]},null]],\"hasEval\":false}", "meta": { "moduleName": "ghost-admin/templates/components/power-select-vertical-collection-options.hbs" } });
+});

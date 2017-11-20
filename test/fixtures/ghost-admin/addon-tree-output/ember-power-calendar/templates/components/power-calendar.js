@@ -1,0 +1,6 @@
+define("ember-power-calendar/templates/components/power-calendar", ["exports"], function (exports) {
+  "use strict";
+
+  exports.__esModule = true;
+  exports.default = Ember.HTMLBars.template({ "id": "6LTLRtVJ", "block": "{\"symbols\":[\"calendar\",\"&default\"],\"statements\":[[4,\"with\",[[25,\"assign\",[[20,[\"publicAPI\"]],[25,\"hash\",null,[[\"nav\",\"days\"],[[25,\"component\",[[20,[\"navComponent\"]]],[[\"calendar\",\"onCenterChange\"],[[25,\"readonly\",[[20,[\"publicAPI\"]]],null],[25,\"readonly\",[[20,[\"onCenterChange\"]]],null]]]],[25,\"component\",[[20,[\"daysComponent\"]]],[[\"calendar\",\"onSelect\"],[[25,\"readonly\",[[20,[\"publicAPI\"]]],null],[25,\"readonly\",[[20,[\"onSelect\"]]],null]]]]]]]],null]],null,{\"statements\":[[4,\"if\",[[22,2]],null,{\"statements\":[[0,\"    \"],[11,2,[[19,1,[]]]],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"    \"],[1,[19,1,[\"nav\"]],false],[0,\"\\n    \"],[1,[19,1,[\"days\"]],false],[0,\"\\n\"]],\"parameters\":[]}]],\"parameters\":[1]},null]],\"hasEval\":false}", "meta": { "moduleName": "ember-power-calendar/templates/components/power-calendar.hbs" } });
+});

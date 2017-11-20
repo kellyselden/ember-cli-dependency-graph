@@ -1,0 +1,8 @@
+define("percy-web/templates/components/main-footer", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "/3+dr6oN", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"container Footer\"],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"Footer-links\"],[7],[0,\"\\n    \"],[4,\"link-to\",[\"docs\"],null,{\"statements\":[[0,\"Docs\"]],\"parameters\":[]},null],[0,\"\\n    \"],[6,\"a\"],[9,\"href\",\"https://blog.percy.io\"],[7],[0,\"Blog\"],[8],[0,\"\\n    \"],[4,\"link-to\",[\"pricing\"],null,{\"statements\":[[0,\"Pricing\"]],\"parameters\":[]},null],[0,\"\\n    \"],[6,\"a\"],[9,\"href\",\"https://status.percy.io/\"],[7],[0,\"Status\"],[8],[0,\"\\n    \"],[4,\"link-to\",[\"security\"],null,{\"statements\":[[0,\"Security\"]],\"parameters\":[]},null],[0,\"\\n    \"],[4,\"link-to\",[\"terms\"],null,{\"statements\":[[0,\"Terms\"]],\"parameters\":[]},null],[0,\"\\n    \"],[4,\"link-to\",[\"privacy\"],null,{\"statements\":[[0,\"Privacy\"]],\"parameters\":[]},null],[0,\"\\n    \"],[4,\"link-to\",[\"about\"],null,{\"statements\":[[0,\"About\"]],\"parameters\":[]},null],[0,\"\\n  \"],[8],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"Footer-item Footer-copyright\"],[7],[0,\"\\n    © Perceptual Inc.\\n  \"],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/components/main-footer.hbs" } });
+});
