@@ -81,11 +81,10 @@ function recurse(node, entryPath, entryName, visited) {
         if (i === attempts.length - 1) {
           // throw err;
           // could be a vendor shim
-          if (visited.has(attempt.original)) {
-            return;
+          if (!visited.has(attempt.original)) {
+            debug(`Could not resolve "${attempt.original}". Perhaps a vendor shim?`);
+            visited.add(attempt.original);
           }
-          visited.add(attempt.original);
-          debug(`Could not resolve "${attempt.original}". Perhaps a vendor shim?`);
           return;
         }
       }
