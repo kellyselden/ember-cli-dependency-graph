@@ -1,0 +1,6 @@
+define("ember-modal-dialog/templates/components/tether-dialog", ["exports"], function (exports) {
+  "use strict";
+
+  exports.__esModule = true;
+  exports.default = Ember.HTMLBars.template({ "id": "wVGMh9Dh", "block": "{\"symbols\":[\"&default\"],\"statements\":[[4,\"if\",[[20,[\"hasOverlay\"]]],null,{\"statements\":[[4,\"ember-wormhole\",null,[[\"to\"],[[20,[\"destinationElementId\"]]]],{\"statements\":[[0,\"    \"],[6,\"div\"],[10,\"class\",[18,\"overlayClassNamesString\"],null],[10,\"onclick\",[25,\"action\",[[19,0,[]],[20,[\"onClickOverlay\"]]],null],null],[9,\"tabindex\",\"-1\"],[9,\"data-emd-overlay\",\"\"],[7],[8],[0,\"\\n\"]],\"parameters\":[]},null]],\"parameters\":[]},null],[4,\"ember-tether\",null,[[\"class\",\"target\",\"attachment\",\"targetAttachment\",\"targetModifier\",\"classPrefix\",\"offset\",\"targetOffset\",\"constraints\"],[[20,[\"containerClassNamesString\"]],[20,[\"tetherTarget\"]],[20,[\"attachment\"]],[20,[\"targetAttachment\"]],[20,[\"targetModifier\"]],[20,[\"tetherClassPrefix\"]],[20,[\"offset\"]],[20,[\"targetOffset\"]],[20,[\"constraints\"]]]],{\"statements\":[[0,\"  \"],[11,1],[0,\"\\n\"]],\"parameters\":[]},null]],\"hasEval\":false}", "meta": { "moduleName": "ember-modal-dialog/templates/components/tether-dialog.hbs" } });
+});

@@ -1,0 +1,8 @@
+define("percy-web/templates/components/invitation-handler", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "/KuIlAKC", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"Card Card--extraPadded u-text-center\"],[7],[0,\"\\n\"],[4,\"if\",[[20,[\"invitation\",\"isExpired\"]]],null,{\"statements\":[[0,\"    \"],[6,\"h3\"],[7],[6,\"strong\"],[7],[0,\"Whoops!\"],[8],[0,\" This invite has expired or already been used\"],[8],[0,\"\\n\\n    \"],[6,\"p\"],[7],[0,\"\\n      Select an organization above, or ask an organization administrator to send you a new invite.\\n    \"],[8],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"    \"],[6,\"h3\"],[7],[0,\"Join \"],[6,\"strong\"],[7],[1,[20,[\"invitation\",\"organization\",\"name\"]],false],[8],[0,\" on Percy\"],[8],[0,\"\\n\\n    \"],[6,\"p\"],[7],[0,\"\\n      \"],[6,\"button\"],[9,\"class\",\"Button Button--primary\"],[3,\"action\",[[19,0,[]],\"accept\"]],[7],[0,\"Accept invitation\"],[8],[0,\"\\n    \"],[8],[0,\"\\n    \"],[6,\"p\"],[7],[0,\"\\n      Joining as \"],[6,\"strong\"],[7],[1,[25,\"user-name\",null,[[\"user\"],[[20,[\"currentUser\"]]]]],false],[8],[0,\". You can \"],[6,\"a\"],[9,\"href\",\"#\"],[3,\"action\",[[19,0,[]],\"logout\"]],[7],[0,\"logout\"],[8],[0,\" and login as a different user.\\n    \"],[8],[0,\"\\n\"]],\"parameters\":[]}],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/components/invitation-handler.hbs" } });
+});

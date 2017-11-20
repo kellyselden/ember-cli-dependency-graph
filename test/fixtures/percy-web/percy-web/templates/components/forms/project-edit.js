@@ -1,0 +1,8 @@
+define("percy-web/templates/components/forms/project-edit", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "QYa3w5v7", "block": "{\"symbols\":[],\"statements\":[[6,\"form\"],[9,\"action\",\"javascript:;\"],[7],[0,\"\\n  \"],[1,[25,\"form-fields/input\",null,[[\"property\",\"title\",\"changeset\",\"validateProperty\"],[\"name\",\"Project name\",[20,[\"changeset\"]],[25,\"action\",[[19,0,[]],\"validateProperty\",[20,[\"changeset\"]],\"name\"],null]]]],false],[0,\"\\n  \"],[1,[25,\"form-fields/input\",null,[[\"property\",\"title\",\"changeset\",\"validateProperty\"],[\"slug\",\"Slug\",[20,[\"changeset\"]],[25,\"action\",[[19,0,[]],\"validateProperty\",[20,[\"changeset\"]],\"slug\"],null]]]],false],[0,\"\\n  \"],[6,\"p\"],[7],[0,\"\\n    The slug is used to identify this project in URLs and the Percy API. If changed, you must update the \"],[6,\"code\"],[7],[0,\"PERCY_PROJECT\"],[8],[0,\" environment variable in your CI service. Note, old build URLs will break if the slug is changed.\\n  \"],[8],[0,\"\\n  \"],[1,[25,\"form-fields/submit\",null,[[\"isSaving\",\"isSaveSuccessful\",\"value\",\"classes\",\"submit\"],[[20,[\"isSaving\"]],[20,[\"isSaveSuccessful\"]],\"Save\",\"Button Button--primary\",[25,\"action\",[[19,0,[]],\"save\"],null]]]],false],[0,\"\\n\"],[8]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/components/forms/project-edit.hbs" } });
+});

@@ -1,0 +1,8 @@
+define("percy-web/templates/organizations/organization/setup", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "uAaspZP8", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"container container--forContent container--fixedWidth\"],[7],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"u-pull-right\"],[7],[6,\"strong\"],[7],[0,\"Step 2 of 2\"],[8],[8],[0,\"\\n  \"],[6,\"h3\"],[7],[0,\"Great!\"],[8],[0,\"\\n  \"],[6,\"p\"],[7],[0,\"\\n    Now let's get GitHub set up:\\n  \"],[8],[0,\"\\n  \"],[6,\"div\"],[9,\"class\",\"Card Card--extraPadded Card--white\"],[7],[0,\"\\n    \"],[6,\"h4\"],[7],[0,\"GitHub Integration \"],[1,[25,\"fa-icon\",[\"github\"],null],false],[8],[0,\"\\n    \"],[1,[25,\"organizations/github-settings\",null,[[\"organization\",\"showSupport\"],[[20,[\"model\"]],\"showSupport\"]]],false],[0,\"\\n  \"],[8],[0,\"\\n  \"],[6,\"br\"],[7],[8],[0,\"\\n  \"],[6,\"div\"],[7],[0,\"\\n    \"],[6,\"p\"],[7],[0,\"\\n\"],[4,\"link-to\",[\"organization\",[20,[\"model\",\"slug\"]]],[[\"classNames\"],[\"Button Button--primary\"]],{\"statements\":[[4,\"if\",[[20,[\"model\",\"isGithubIntegrated\"]]],null,{\"statements\":[[0,\"          Done »\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"          Skip GitHub setup »\\n\"]],\"parameters\":[]}]],\"parameters\":[]},null],[0,\"    \"],[8],[0,\"\\n    \"],[6,\"p\"],[7],[0,\"\\n      You can always change this setting later.\\n    \"],[8],[0,\"\\n  \"],[8],[0,\"\\n\"],[8]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/organizations/organization/setup.hbs" } });
+});

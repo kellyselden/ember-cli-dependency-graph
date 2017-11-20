@@ -1,0 +1,8 @@
+define("ghost-admin/templates/components/gh-tag", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "si443PWj", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"settings-tag\"],[10,\"id\",[26,[\"gh-tag-\",[20,[\"tag\",\"id\"]]]]],[7],[0,\"\\n\"],[4,\"link-to\",[\"settings.tags.tag\",[20,[\"tag\"]]],[[\"class\"],[\"tag-edit-button\"]],{\"statements\":[[0,\"        \"],[6,\"span\"],[9,\"class\",\"tag-title\"],[7],[1,[20,[\"tag\",\"name\"]],false],[8],[0,\"\\n        \"],[6,\"span\"],[9,\"class\",\"label label-default\"],[7],[0,\"/\"],[1,[20,[\"tag\",\"slug\"]],false],[8],[0,\"\\n\\n\"],[4,\"if\",[[20,[\"tag\",\"isInternal\"]]],null,{\"statements\":[[0,\"            \"],[6,\"span\"],[9,\"class\",\"label label-blue\"],[7],[0,\"internal\"],[8],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\n        \"],[6,\"p\"],[9,\"class\",\"tag-description\"],[7],[1,[20,[\"tag\",\"description\"]],false],[8],[0,\"\\n        \"],[6,\"span\"],[9,\"class\",\"tags-count\"],[7],[0,\"\\n\"],[4,\"link-to\",[\"posts\",[25,\"query-params\",null,[[\"type\",\"author\",\"tag\",\"order\"],[null,null,[20,[\"tag\",\"slug\"]],null]]]],null,{\"statements\":[[0,\"                \"],[1,[20,[\"tag\",\"count\",\"posts\"]],false],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"        \"],[8],[0,\"\\n\"]],\"parameters\":[]},null],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "ghost-admin/templates/components/gh-tag.hbs" } });
+});

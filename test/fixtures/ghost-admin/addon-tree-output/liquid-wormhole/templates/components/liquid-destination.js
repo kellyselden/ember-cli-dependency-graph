@@ -1,0 +1,6 @@
+define("liquid-wormhole/templates/components/liquid-destination", ["exports"], function (exports) {
+  "use strict";
+
+  exports.__esModule = true;
+  exports.default = Ember.HTMLBars.template({ "id": "w7B9vW9n", "block": "{\"symbols\":[\"stack\",\"item\"],\"statements\":[[4,\"each\",[[20,[\"stacks\"]]],null,{\"statements\":[[0,\"  \"],[6,\"div\"],[9,\"class\",\"liquid-destination-stack\"],[7],[0,\"\\n\"],[4,\"liquid-versions\",null,[[\"value\",\"notify\",\"renderWhenFalse\",\"name\",\"matchContext\",\"stackName\"],[[19,1,[\"lastObject\"]],[19,0,[]],true,\"liquid-wormhole\",[20,[\"matchContext\"]],[19,1,[\"name\"]]]],{\"statements\":[[0,\"      \"],[1,[25,\"liquid-append\",null,[[\"nodes\",\"replaceNodes\",\"notify\",\"click\"],[[19,2,[\"nodes\"]],[19,2,[\"_replaceNodes\"]],[19,2,[\"wormhole\"]],[19,2,[\"wormhole\",\"click\"]]]]],false],[0,\"\\n\"]],\"parameters\":[2]},null],[0,\"  \"],[8],[0,\"\\n\"]],\"parameters\":[1]},null]],\"hasEval\":false}", "meta": { "moduleName": "liquid-wormhole/templates/components/liquid-destination.hbs" } });
+});

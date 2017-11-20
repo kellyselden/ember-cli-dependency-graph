@@ -1,0 +1,8 @@
+define("ghost-admin/templates/components/gh-image-uploader-with-preview", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "DpG1XRC7", "block": "{\"symbols\":[],\"statements\":[[4,\"if\",[[20,[\"image\"]]],null,{\"statements\":[[0,\"    \"],[6,\"div\"],[9,\"class\",\"gh-image-uploader -with-image\"],[7],[0,\"\\n        \"],[6,\"div\"],[7],[6,\"img\"],[10,\"src\",[18,\"image\"],null],[7],[8],[8],[0,\"\\n        \"],[6,\"a\"],[9,\"class\",\"image-cancel\"],[9,\"title\",\"Delete\"],[3,\"action\",[[19,0,[]],\"remove\"]],[7],[0,\"\\n            \"],[1,[25,\"inline-svg\",[\"trash\"],null],false],[0,\"\\n            \"],[6,\"span\"],[9,\"class\",\"hidden\"],[7],[0,\"Delete\"],[8],[0,\"\\n        \"],[8],[0,\"\\n    \"],[8],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"    \"],[1,[25,\"gh-image-uploader\",null,[[\"text\",\"altText\",\"allowUnsplash\",\"update\",\"uploadStarted\",\"uploadFinished\"],[[20,[\"text\"]],[20,[\"altText\"]],[20,[\"allowUnsplash\"]],[25,\"action\",[[19,0,[]],\"update\"],null],[25,\"action\",[[19,0,[]],\"uploadStarted\"],null],[25,\"action\",[[19,0,[]],\"uploadFinished\"],null]]]],false],[0,\"\\n\"]],\"parameters\":[]}]],\"hasEval\":false}", "meta": { "moduleName": "ghost-admin/templates/components/gh-image-uploader-with-preview.hbs" } });
+});

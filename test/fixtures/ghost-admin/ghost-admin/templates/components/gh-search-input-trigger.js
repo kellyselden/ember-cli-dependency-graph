@@ -1,0 +1,8 @@
+define("ghost-admin/templates/components/gh-search-input-trigger", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "RSMOfNAz", "block": "{\"symbols\":[],\"statements\":[[6,\"div\"],[9,\"class\",\"ember-power-select-search\"],[10,\"onmousedown\",[25,\"action\",[[19,0,[]],\"captureMouseDown\"],null],null],[7],[0,\"\\n    \"],[6,\"input\"],[9,\"type\",\"search\"],[9,\"autocomplete\",\"off\"],[9,\"autocorrect\",\"off\"],[9,\"autocapitalize\",\"off\"],[10,\"value\",[25,\"if\",[[20,[\"extra\",\"labelPath\"]],[25,\"get\",[[20,[\"selected\"]],[20,[\"extra\",\"labelPath\"]]],null],[20,[\"selected\"]]],null],null],[9,\"spellcheck\",\"false\"],[9,\"role\",\"combobox\"],[10,\"placeholder\",[18,\"placeholder\"],null],[10,\"oninput\",[25,\"action\",[[19,0,[]],\"search\"],[[\"value\"],[\"target.value\"]]],null],[10,\"onmousedown\",[25,\"action\",[[19,0,[]],\"captureMouseDown\"],null],null],[10,\"onkeydown\",[25,\"action\",[[19,0,[]],\"handleKeydown\"],null],null],[10,\"onblur\",[25,\"action\",[[19,0,[]],\"resetInput\"],null],null],[7],[8],[0,\"\\n    \"],[6,\"button\"],[9,\"class\",\"gh-nav-search-button\"],[3,\"action\",[[19,0,[]],\"focusInput\"]],[7],[1,[25,\"inline-svg\",[\"search\"],null],false],[6,\"span\"],[9,\"class\",\"sr-only\"],[7],[0,\"Search\"],[8],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "ghost-admin/templates/components/gh-search-input-trigger.hbs" } });
+});

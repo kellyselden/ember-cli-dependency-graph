@@ -1,0 +1,6 @@
+define("liquid-wormhole/templates/components/liquid-wormhole", ["exports"], function (exports) {
+  "use strict";
+
+  exports.__esModule = true;
+  exports.default = Ember.HTMLBars.template({ "id": "6XmISFe8", "block": "{\"symbols\":[\"details\",\"&default\"],\"statements\":[[4,\"if\",[[20,[\"hasSend\"]]],null,{\"statements\":[[4,\"if\",[[22,2]],null,{\"statements\":[[4,\"component\",[[20,[\"send\"]]],[[\"id\",\"class\"],[[20,[\"wormholeId\"]],[25,\"concat\",[[20,[\"wormholeClass\"]],\" liquid-wormhole-element\"],null]]],{\"statements\":[[0,\"      \"],[11,2,[[19,1,[]]]],[0,\"\\n\"]],\"parameters\":[1]},null]],\"parameters\":[]},{\"statements\":[[0,\"    \"],[1,[25,\"component\",[[20,[\"send\"]]],[[\"id\",\"class\"],[[20,[\"wormholeId\"]],[25,\"concat\",[[20,[\"wormholeClass\"]],\" liquid-wormhole-element\"],null]]]],false],[0,\"\\n\"]],\"parameters\":[]}]],\"parameters\":[]},{\"statements\":[[0,\"  \"],[6,\"div\"],[10,\"id\",[18,\"wormholeId\"],null],[10,\"class\",[26,[[18,\"wormholeClass\"],\" liquid-wormhole-element\"]]],[7],[0,\"\\n    \"],[11,2],[0,\"\\n  \"],[8],[0,\"\\n\"]],\"parameters\":[]}]],\"hasEval\":false}", "meta": { "moduleName": "liquid-wormhole/templates/components/liquid-wormhole.hbs" } });
+});

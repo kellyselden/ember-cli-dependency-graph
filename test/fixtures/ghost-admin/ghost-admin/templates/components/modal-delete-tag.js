@@ -1,0 +1,8 @@
+define("ghost-admin/templates/components/modal-delete-tag", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "nLA5h7PN", "block": "{\"symbols\":[],\"statements\":[[6,\"header\"],[9,\"class\",\"modal-header\"],[7],[0,\"\\n    \"],[6,\"h1\"],[7],[0,\"Are you sure you want to delete this tag?\"],[8],[0,\"\\n\"],[8],[0,\"\\n\"],[6,\"a\"],[9,\"class\",\"close\"],[9,\"href\",\"\"],[9,\"title\",\"Close\"],[3,\"action\",[[19,0,[]],\"closeModal\"]],[7],[1,[25,\"inline-svg\",[\"close\"],null],false],[6,\"span\"],[9,\"class\",\"hidden\"],[7],[0,\"Close\"],[8],[8],[0,\"\\n\\n\"],[6,\"div\"],[9,\"class\",\"modal-body\"],[7],[0,\"\\n\"],[4,\"if\",[[20,[\"tag\",\"post_count\"]]],null,{\"statements\":[[0,\"        \"],[6,\"span\"],[9,\"class\",\"red\"],[7],[0,\"This tag is attached to \"],[1,[20,[\"tag\",\"count\",\"posts\"]],false],[0,\" \"],[1,[18,\"postInflection\"],false],[0,\".\"],[8],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"    You're about to delete \\\"\"],[6,\"strong\"],[7],[1,[20,[\"tag\",\"name\"]],false],[8],[0,\"\\\". This is permanent! We warned you, k?\\n\"],[8],[0,\"\\n\\n\"],[6,\"div\"],[9,\"class\",\"modal-footer\"],[7],[0,\"\\n    \"],[6,\"button\"],[9,\"class\",\"gh-btn\"],[3,\"action\",[[19,0,[]],\"closeModal\"]],[7],[6,\"span\"],[7],[0,\"Cancel\"],[8],[8],[0,\"\\n    \"],[1,[25,\"gh-task-button\",[\"Delete\"],[[\"successText\",\"task\",\"class\"],[\"Deleted\",[20,[\"deleteTag\"]],\"gh-btn gh-btn-red gh-btn-icon\"]]],false],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "ghost-admin/templates/components/modal-delete-tag.hbs" } });
+});

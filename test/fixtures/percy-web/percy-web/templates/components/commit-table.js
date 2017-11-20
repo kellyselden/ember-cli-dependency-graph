@@ -1,0 +1,8 @@
+define("percy-web/templates/components/commit-table", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "eSm+BKUA", "block": "{\"symbols\":[],\"statements\":[[6,\"table\"],[7],[0,\"\\n  \"],[6,\"tr\"],[7],[0,\"\\n    \"],[6,\"td\"],[7],[0,\"Commit\"],[8],[0,\"\\n    \"],[6,\"td\"],[7],[0,\"\\n\"],[4,\"if\",[[20,[\"build\",\"isGithubLinked\"]]],null,{\"statements\":[[0,\"        \"],[6,\"code\"],[7],[6,\"a\"],[10,\"href\",[26,[[20,[\"build\",\"repo\",\"htmlUrl\"]],\"/tree/\",[20,[\"build\",\"branch\"]]]]],[7],[1,[20,[\"build\",\"branch\"]],false],[8],[8],[0,\"\\n        @\\n        \"],[6,\"a\"],[10,\"href\",[26,[[20,[\"build\",\"repo\",\"htmlUrl\"]],\"/commit/\",[20,[\"commit\",\"sha\"]]]]],[7],[1,[20,[\"commit\",\"shaShort\"]],false],[8],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"        \"],[1,[20,[\"build\",\"branch\"]],false],[0,\" @ \"],[1,[20,[\"commit\",\"shaShort\"]],false],[0,\"\\n\"]],\"parameters\":[]}],[0,\"    \"],[8],[0,\"\\n  \"],[8],[0,\"\\n  \"],[6,\"tr\"],[7],[6,\"td\"],[7],[0,\"Committer\"],[8],[6,\"td\"],[7],[1,[20,[\"commit\",\"authorName\"]],false],[8],[8],[0,\"\\n  \"],[6,\"tr\"],[7],[6,\"td\"],[7],[0,\"Message\"],[8],[6,\"td\"],[9,\"class\",\"BuildInfoDropdown-commitMessage\"],[7],[1,[20,[\"commit\",\"message\"]],false],[8],[8],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/components/commit-table.hbs" } });
+});

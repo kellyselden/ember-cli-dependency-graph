@@ -1,0 +1,8 @@
+define("percy-web/templates/components/comparison-mode-switcher", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "4atPfU+P", "block": "{\"symbols\":[],\"statements\":[[6,\"nav\"],[9,\"class\",\"ComparisonModeSwitcher\"],[7],[0,\"\\n\"],[4,\"if\",[[20,[\"wasAdded\"]]],null,{\"statements\":[[0,\"    \"],[6,\"span\"],[9,\"class\",\"ComparisonModeSwitcher-switch active\"],[3,\"action\",[[19,0,[]],[20,[\"updateComparisonMode\"]],\"head\"]],[7],[0,\"New Snapshot\"],[8],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"    \"],[6,\"span\"],[10,\"class\",[26,[\"ComparisonModeSwitcher-switch \",[25,\"if\",[[25,\"eq\",[[20,[\"comparisonMode\"]],\"base\"],null],\"active\"],null]]]],[3,\"action\",[[19,0,[]],[20,[\"updateComparisonMode\"]],\"base\"]],[7],[0,\"Original\"],[8],[0,\"\\n\\n    \"],[6,\"span\"],[10,\"class\",[26,[\"ComparisonModeSwitcher-switch \",[25,\"if\",[[25,\"eq\",[[20,[\"comparisonMode\"]],\"diff\"],null],\"active\"],null]]]],[3,\"action\",[[19,0,[]],[20,[\"updateComparisonMode\"]],\"diff\"]],[7],[0,\"Diff\"],[8],[0,\"\\n    \"],[6,\"span\"],[10,\"class\",[26,[\"ComparisonModeSwitcher-switch \",[25,\"if\",[[25,\"eq\",[[20,[\"comparisonMode\"]],\"head\"],null],\"active\"],null]]]],[3,\"action\",[[19,0,[]],[20,[\"updateComparisonMode\"]],\"head\"]],[7],[0,\"New\"],[8],[0,\"\\n\"]],\"parameters\":[]}],[8]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/components/comparison-mode-switcher.hbs" } });
+});

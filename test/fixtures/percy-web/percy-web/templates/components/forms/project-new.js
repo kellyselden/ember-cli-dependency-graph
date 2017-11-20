@@ -1,0 +1,8 @@
+define("percy-web/templates/components/forms/project-new", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "hpdpGgQU", "block": "{\"symbols\":[],\"statements\":[[1,[25,\"page-title\",[\"Create a new project\"],null],false],[0,\"\\n\"],[6,\"p\"],[7],[0,\"\\n  Projects are how we group related builds in Percy. Usually, you'll want to use the name of your repository or the name of your site.\\n\"],[8],[0,\"\\n\"],[6,\"form\"],[9,\"action\",\"javascript:;\"],[7],[0,\"\\n  \"],[1,[25,\"form-fields/input\",null,[[\"property\",\"title\",\"changeset\",\"validateProperty\",\"autofocus\",\"placeholder\"],[\"name\",\"Project name\",[20,[\"changeset\"]],[25,\"action\",[[19,0,[]],\"validateProperty\",[20,[\"changeset\"]],\"name\"],null],true,\"widgets-web-app\"]]],false],[0,\"\\n\"],[4,\"if\",[[20,[\"organization\",\"isGithubIntegrated\"]]],null,{\"statements\":[[0,\"    \"],[6,\"strong\"],[7],[0,\"Link GitHub repository\"],[8],[0,\"\\n    \"],[1,[25,\"projects/github-integrator\",null,[[\"project\"],[[20,[\"changeset\"]]]]],false],[0,\"\\n\"]],\"parameters\":[]},null],[0,\"\\n  \"],[6,\"br\"],[7],[8],[0,\"\\n  \"],[1,[25,\"form-fields/submit\",null,[[\"value\",\"classes\",\"submit\"],[\"Create Project\",\"Button Button--primary\",[25,\"action\",[[19,0,[]],\"save\"],null]]]],false],[0,\"\\n\"],[8],[0,\"\\n\"]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/components/forms/project-new.hbs" } });
+});

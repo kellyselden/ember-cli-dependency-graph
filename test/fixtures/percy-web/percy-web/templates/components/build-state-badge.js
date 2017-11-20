@@ -1,0 +1,8 @@
+define("percy-web/templates/components/build-state-badge", ["exports"], function (exports) {
+  "use strict";
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = Ember.HTMLBars.template({ "id": "LISNWKYm", "block": "{\"symbols\":[],\"statements\":[[4,\"if\",[[20,[\"build\",\"isPending\"]]],null,{\"statements\":[[0,\"  Receiving\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[20,[\"build\",\"isProcessing\"]]],null,{\"statements\":[[0,\"  Processing\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[20,[\"build\",\"isFinished\"]]],null,{\"statements\":[[4,\"if\",[[20,[\"build\",\"isApproved\"]]],null,{\"statements\":[[0,\"    Approved\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[20,[\"build\",\"hasDiffs\"]]],null,{\"statements\":[[0,\"      \"],[1,[25,\"pluralize\",[[20,[\"build\",\"totalComparisonsDiff\"]],\"visual diff\"],null],false],[0,\"\\n\"]],\"parameters\":[]},{\"statements\":[[0,\"      No visual diffs\\n\"]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[20,[\"build\",\"isFailed\"]]],null,{\"statements\":[[0,\"  Failed\\n\"]],\"parameters\":[]},{\"statements\":[[4,\"if\",[[20,[\"build\",\"isExpired\"]]],null,{\"statements\":[[0,\"  Expired\\n\"]],\"parameters\":[]},null]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"parameters\":[]}]],\"hasEval\":false}", "meta": { "moduleName": "percy-web/templates/components/build-state-badge.hbs" } });
+});
