@@ -148,7 +148,11 @@ class Graph {
     let files = walkSync(this._treePath, {
       directories: false,
       globs: ['**/*.js'],
-      ignore: ['vendor', 'bower_components']
+      ignore: [
+        'bower_components',
+        'node_modules',
+        'vendor'
+      ]
     });
 
     let dead = new Set(files.map(path.normalize));
