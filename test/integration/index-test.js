@@ -6,7 +6,7 @@ const Graph = require('../../src');
 const Node = require('../../src/node');
 
 describe('Integration - index', function() {
-  this.timeout('10000');
+  this.timeout('30000');
 
   it('my-app', function() {
     let appPath = path.join(__dirname, '../fixtures/my-app');
