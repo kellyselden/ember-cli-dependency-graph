@@ -4,6 +4,8 @@ node_js:
 cache:
   directories:
   - "$HOME/.npm"
+before_install:
+- npm install -g npm@6
 deploy:
   provider: npm
   email: kellyselden@gmail.com
