@@ -101,9 +101,9 @@ function recurse(node, entryPath, entryName, visited) {
 }
 
 class Graph {
-  static build(treePath, entryName, options) {
-    options = options || {};
-    let includes = options.include || [];
+  static build(treePath, entryName, {
+    include: includes = []
+  } = {}) {
     let entryPath = path.join(treePath, entryName);
 
     let files = walkSync(entryPath, {
