@@ -20,6 +20,9 @@
     "url": "https://github.com/kellyselden/ember-cli-dependency-graph/issues"
   },
   "homepage": "https://github.com/kellyselden/ember-cli-dependency-graph#readme",
+  "engines": {
+    "node": ">= 6"
+  },
   "dependencies": {
     "debug": "^3.1.0",
     "mr-dep-walk": "kellyselden/mr-dep-walk#sourceType",
